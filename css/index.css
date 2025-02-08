@@ -72,7 +72,7 @@ body{
   }
 
   .Inicio{
-    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.5)),url(../imagenes/Carro\ inicio.jpg);
+    background: linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.3)), url(../imagenes/Carro\ inicio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -91,6 +91,7 @@ body{
 .Inicio h4{
     color: white;
     font-size: 20px;
+    margin-bottom: 20px;
  }
 
 .img-custom {
@@ -135,3 +136,103 @@ body{
      }
      
   }
+
+  footer {
+    background: black;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociales a {
+    color: white;
+    font-size: 30px;
+    margin: 0 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.redes-sociales i {
+padding: 5px;
+}
+
+.redes-sociales a:hover {
+    color: #0782fa; /* Color al pasar el cursor */
+    transform: scale(1.2); /* Efecto de ampliación al pasar el cursor */
+}
+
+.legal {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el botón y el contenido en el centro */
+    margin-top: 20px;
+}
+
+#legal-button {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#legal-button i {
+    margin-left: 10px; /* Espacio entre el texto y la flecha */
+}
+
+#legal-button:hover {
+    background-color: #333;
+    transform: translateY(-3px);
+}
+
+/* Contenido oculto del menú desplegable */
+#legal-content {
+    display: none;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+#legal-content p {
+    margin: 5px 0;
+}
+
+/* Mostrar contenido cuando el botón es presionado */
+#legal-content.show {
+    display: block;
+}
+@media (max-width: 768px) {
+    .redes-sociales{
+        flex-direction: column;
+    }
+    
+    .redes-sociales a {
+        margin: 5px 0;
+    }
+
+    .legal {
+        margin-top: 10px;
+    }
+
+    #legal-button {
+        font-size: 14px;
+    }
+
+    #legal-content {
+        font-size: 12px;
+    }
+
+}
