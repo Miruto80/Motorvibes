@@ -59,6 +59,11 @@ body{
     background-color: black;
     color:#C8B575;
 }
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 
 .navbar-nav .nav-link {
     font-size: 18px;       /* Texto grande */
@@ -135,6 +140,24 @@ body{
         color: white;
      }
      
+  }
+  .How h2 {
+    font-size: 2.5rem; /* Tamaño grande para pantallas grandes */
+    font-weight: bold; /* Negrita */
+    margin: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .How h2 {
+      font-size: 2rem; /* Tamaño más pequeño en pantallas pequeñas */
+    }
+  }
+  
+  .card-img-top{
+      height: 300px !important;
+  }
+  .card-title{
+    font-weight: bold;
   }
 
   footer {
