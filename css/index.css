@@ -151,6 +151,13 @@ header {
     .How h2 {
       font-size: 2rem; /* Tamaño más pequeño en pantallas pequeñas */
     }
+    .carousel-title{
+        margin: 0;
+        width: 100%;
+    }
+    .carousel-container {
+        height: auto;
+    }
   }
   
   .card-img-top{
@@ -159,6 +166,75 @@ header {
   .card-title{
     font-weight: bold;
   }
+
+  .car-carousel {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 750px;
+}
+
+.carousel-title {
+    position: absolute;
+    top: 2px; /* Ajusta esta distancia según prefieras */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+    color: white;
+    z-index: 2;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para que se lea mejor sobre la imagen */
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-arrow {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.left-arrow {
+    position: absolute;
+    left: 10px;
+}
+
+.right-arrow {
+    position: absolute;
+    right: 10px;
+}
+
+.car-carousel h2 {
+    text-align: center;
+    font-size: 32px;
+    color: white; /* Puedes cambiar el color según el diseño */
+    margin-bottom: 20px;
+}
 
   footer {
     background: black;

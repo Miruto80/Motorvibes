@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-approval</title>
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/Pre-approval.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/a994ffc8cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="top-bar" id="top-bar">
+        <div class="top-bar-content">
+            <span class="contact-info"><i class="fa-solid fa-phone"> Call us:</i><a href="tel:682-240-7569"> 682-240-7569</a></span>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/gPN8Gs2vAiGGviTC/?mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/motorvibesllc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-body">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="imagenes/logo.png" alt="Logo Taekyon" width="150" height="120" class="d-inline-block align-text-top">
+          </a>
+          <a class="navbar-brand fs-4 d-none d-sm-inline d-lg-inline fs-lg-2" href="#">
+            <b>Your Journey Begins Here</b>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html" id="Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  Pre-approval
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Contact us
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Link-I" href="#">
+                   View inventory
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h2 class="text-center">Pre-approval</h2>
+
+    <div class="container mt-5">
+        <form action="#" method="post" id="preApprovalForm">
+            <div class="row mb-3">
+                <div class="col-12 col-md-6">
+                    <label for="firstname" class="form-label">First Name<span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Insert your first name" title="Please enter a valid name" required>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="lastname" class="form-label">Last Name<span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" placeholder="Insert your last name" id="lastname" name="lastname" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 col-md-6">
+                    <label for="phone" class="form-label">Phone Number<span class="text-danger">*</span></label>
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Please enter a valid phone number" title="Please enter a valid phone number"required>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="dob" class="form-label">Date of Birth<span class="text-danger">*</span></label>
+                  <input type="date" class="form-control" id="dob" name="dob" required max="2005-12-31" required>
+                <small class="form-text text-muted">You must be at least 18 years old to apply.</small>
+                </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-12 col-md-4">
+                <label for="Social" class="form-label">SSN<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="Social" name="Social" placeholder="Please enter a valid social number" title="Please enter a valid social number"required>
+            </div>
+              <div class="col-12 col-md-4">
+                  <label for="driverlicense" class="form-label">Driver license<span class="text-danger">*</span></label>
+                  <select class="form-control" id="driverlicense" name="driverlicense" required>
+                    <option value="" disabled selected>Select your state</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                  </select>
+                </div>
+                <div class="col-12 col-md-4">
+                  <label for="license" class="form-label">License<span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="license" name="license" required>
+                </div>
+              </div>
+            <div class="row mb-3">
+                <div class="col-12 col-md-4">
+                    <label for="City" class="form-label">City <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="City" name="City" required>
+                </div>
+                <div class="col-12 col-md-4">
+                  <label for="state" class="form-label">Select your state <span class="text-danger">*</span></label>
+                  <select class="form-control" id="state" name="state" required>
+                    <option value="" disabled selected>Select your state</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                  </select>
+                </div>
+                <div class="col-12 col-md-4">
+                  <label for="Zip" class="form-label">Zip <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="Zip" name="Zip" required>
+                </div>
+              </div>
+              <div class="row mb-3">
+                  <div class="col-12">
+                      <label for="carType" class="form-label">Car of interest <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="carType" name="carType" required>
+                  </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-12 col-md-6">
+                    <label for="timeAddress" class="form-label">Time at Address:</label>
+                    <input type="text" class="form-control" id="timeAddress" placeholder="Years - Months">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="mortgageRent" class="form-label">Mortgage or Rent:</label>
+                    <input type="text" class="form-control" id="mortgageRent" placeholder="Monthly - Rent or Own">
+                </div>
+            </div>
+            
+            <div class="row mb-3">
+                <div class="col-12 col-md-6">
+                    <label for="homePhone" class="form-label">Home Phone</label>
+                    <input type="text" class="form-control" id="homePhone">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="workPhone" class="form-label">Work Phone</label>
+                    <input type="text" class="form-control" id="workPhone">
+                </div>
+            </div>
+            
+            <div class="row mb-3">
+                <div class="col-12 col-md-6">
+                    <label for="bestContactTime" class="form-label">Best Contact Time</label>
+                    <select class="form-control" id="bestContactTime">
+                        <option>No Preference</option>
+                        <option>Morning</option>
+                        <option>Afternoon</option>
+                        <option>Evening</option>
+                    </select>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="bestContactMethod" class="form-label">Best Contact Method</label>
+                    <select class="form-control" id="bestContactMethod">
+                        <option>Call me please</option>
+                        <option>Email me</option>
+                        <option>Text me</option>
+                    </select>
+                </div>
+            </div>
+              <h4 class="text-center">Employment informacion</h4>
+              <hr>
+              <div class="row mb-3">
+                <div class="col-12 col-md-6">
+                  <label for="incomeType" class="form-label">Income Type <span class="text-danger">*</span></label>
+                  <select class="form-control" id="incomeType" name="incomeType" required>
+                    <option value="" disabled selected>Select Income Type</option>
+                    <option value="W2">W2</option>
+                    <option value="Cash">Cash</option>
+                    <option value="Bank-statment">Bank-statment</option>
+                    <option value="Letter">Letter</option>
+                  </select>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="grossIncome" class="form-label">Monthly Gross Income ($) <span class="text-danger">*</span></label>
+                  <input type="number" class="form-control" id="grossIncome" name="grossIncome" placeholder="Enter monthly income" required>
+                </div>
+              </div>
+              
+              <div class="row mb-3">
+                <div class="col-12 col-md-6">
+                  <label for="timeOnJob" class="form-label">Time on Job <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="timeOnJob" name="timeOnJob" placeholder="e.g., 2 years 3 months" required>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="employer" class="form-label">Employer <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="employer" name="employer" placeholder="Enter employer's name" required>
+                </div>
+              </div>
+              
+              <div class="row mb-3">
+                <div class="col-12 col-md-6">
+                  <label for="occupation" class="form-label">Occupation <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="occupation" name="occupation" placeholder="Enter your occupation" required>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="jobStatus" class="form-label">Job Status <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="jobStatus" name="jobStatus" placeholder="Enter job status" required>
+                </div>
+              </div>
+              
+              <div class="row mb-3">
+                <div class="col-12 col-md-6">
+                  <label for="workShift" class="form-label">Work Shift</label>
+                  <input type="text" class="form-control" id="workShift" name="workShift" placeholder="e.g., Day/Night">
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="supervisorName" class="form-label">Supervisor Name</label>
+                  <input type="text" class="form-control" id="supervisorName" name="supervisorName" placeholder="Enter supervisor's name">
+                </div>
+              </div>
+              
+              <div class="row mb-3">
+                <div class="col-12 col-md-6">
+                  <label for="supervisorPhone" class="form-label">Supervisor's Phone #</label>
+                  <input type="tel" class="form-control" id="supervisorPhone" name="supervisorPhone" placeholder="Enter supervisor's phone number">
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="employmentCity" class="form-label">Employment City</label>
+                  <input type="text" class="form-control" id="employmentCity" name="employmentCity" placeholder="Enter city of employment">
+                </div>
+              </div>
+              
+              <div class="row mb-3">
+                <div class="col-12">
+                  <label for="employmentAddress" class="form-label">Employment Address</label>
+                  <input type="text" class="form-control" id="employmentAddress" name="employmentAddress" placeholder="Enter employment address">
+                </div>
+              </div>
+              
+              <div class="row mb-3">
+                <div class="col-12 col-md-6">
+                  <label for="employmentState" class="form-label">Employment State</label>
+                  <select class="form-control" id="employmentState" name="employmentState">
+                    <option value="" disabled selected>- Select State -</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                  </select>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="employmentZip" class="form-label">Employment Zip</label>
+                  <input type="text" class="form-control" id="employmentZip" name="employmentZip" placeholder="Enter ZIP code">
+                </div>
+              </div>
+              
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="confirm" required>
+                <label class="form-check-label" for="confirm">
+                    confirm all above is correct and acknowledge you have signed credit app <span class="text-danger">*</span>
+                </label>
+            </div>
+            
+              <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        // Show trade-in details if the user has a trade-in
+    </script>
+</body>
+</html>
