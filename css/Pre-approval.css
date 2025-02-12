@@ -80,3 +80,7 @@ body{
     font-size: 0.9em;
     display: block;
 }
+
+form button{
+    margin-bottom:10px !important;
+}

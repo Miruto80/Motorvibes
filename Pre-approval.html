@@ -60,23 +60,27 @@
       </nav>
     </header>
     <h2 class="text-center">Pre-approval</h2>
+    <p></p>
 
     <div class="container mt-5">
-        <form action="https://formspree.io/f/mldgwnda" method="POST">
+        <form action="https://formspree.io/f/mldgwnda" method="POST" onsubmit="return validarenvio()">
             <div class="row mb-3">
                 <div class="col-12 col-md-6">
                     <label for="firstname" class="form-label">First Name<span class="text-danger">*</span></label>
                     <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Insert your first name" title="Please enter a valid name" required>
+                    <span id="sfirstname" class="errorform"></span>
                 </div>
                 <div class="col-12 col-md-6">
                     <label for="lastname" class="form-label">Last Name<span class="text-danger">*</span></label>
                     <input type="text" class="form-control" placeholder="Insert your last name" id="lastname" name="lastname" required>
-                </div>
+                    <span id="slastname" class="errorform"></span>
+                  </div>
             </div>
             <div class="row mb-3">
                 <div class="col-12 col-md-6">
                     <label for="phone" class="form-label">Phone Number<span class="text-danger">*</span></label>
                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="Please enter a valid phone number" title="Please enter a valid phone number"required>
+                    <span id="sphone" class="errorform"></span>
                 </div>
                 <div class="col-12 col-md-6">
                     <label for="dob" class="form-label">Date of Birth<span class="text-danger">*</span></label>
@@ -88,7 +92,8 @@
               <div class="col-12 col-md-4">
                 <label for="Social" class="form-label">SSN<span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="Social" name="Social" placeholder="Please enter a valid social number" title="Please enter a valid social number"required>
-            </div>
+                <span id="sSocial" class="errorform"></span>
+              </div>
               <div class="col-12 col-md-4">
                   <label for="driverlicense" class="form-label">Driver license<span class="text-danger">*</span></label>
                   <select class="form-control" id="driverlicense" name="driverlicense" required>
@@ -147,13 +152,15 @@
                 </div>
                 <div class="col-12 col-md-4">
                   <label for="license" class="form-label">License<span class="text-danger">*</span></label>
-                  <input type="text" class="form-control" id="license" name="license" required>
+                  <input type="text" class="form-control" id="license" placeholder="Enter your license" name="license" required>
+                  <span id="slicense" class="errorform"></span>
                 </div>
               </div>
             <div class="row mb-3">
                 <div class="col-12 col-md-4">
                     <label for="City" class="form-label">City <span class="text-danger">*</span></label>
                     <input type="text" class="form-control" id="City" name="City" required>
+                    <span id="sCity" class="errorform"></span>
                 </div>
                 <div class="col-12 col-md-4">
                   <label for="state" class="form-label">Select your state <span class="text-danger">*</span></label>
@@ -213,7 +220,8 @@
                 </div>
                 <div class="col-12 col-md-4">
                   <label for="Zip" class="form-label">Zip <span class="text-danger">*</span></label>
-                  <input type="text" class="form-control" id="Zip" name="Zip" required>
+                  <input type="text" class="form-control" id="Zip" name="Zip" maxlength="5" required>
+                  <span id="sZip" class="errorform"></span>
                 </div>
               </div>
               <div class="row mb-3">
@@ -238,10 +246,12 @@
                 <div class="col-12 col-md-6">
                     <label for="homePhone" class="form-label">Home Phone</label>
                     <input type="text" class="form-control" id="homePhone">
+                    <span id="shomePhone" class="errorform"></span>
                 </div>
                 <div class="col-12 col-md-6">
                     <label for="workPhone" class="form-label">Work Phone</label>
                     <input type="text" class="form-control" id="workPhone">
+                    <span id="sworkPhone" class="errorform"></span>
                 </div>
             </div>
             
@@ -280,6 +290,7 @@
                 <div class="col-12 col-md-6">
                   <label for="grossIncome" class="form-label">Monthly Gross Income ($) <span class="text-danger">*</span></label>
                   <input type="number" class="form-control" id="grossIncome" name="grossIncome" placeholder="Enter monthly income" required>
+                  <span id="sgrossIncome" class="errorform"></span>
                 </div>
               </div>
               
@@ -291,6 +302,7 @@
                 <div class="col-12 col-md-6">
                   <label for="employer" class="form-label">Employer <span class="text-danger">*</span></label>
                   <input type="text" class="form-control" id="employer" name="employer" placeholder="Enter employer's name" required>
+                  <span id="semployer" class="errorform"></span>
                 </div>
               </div>
               
@@ -298,10 +310,19 @@
                 <div class="col-12 col-md-6">
                   <label for="occupation" class="form-label">Occupation <span class="text-danger">*</span></label>
                   <input type="text" class="form-control" id="occupation" name="occupation" placeholder="Enter your occupation" required>
+                  <span id="soccupation" class="errorform"></span>
                 </div>
                 <div class="col-12 col-md-6">
                   <label for="jobStatus" class="form-label">Job Status <span class="text-danger">*</span></label>
-                  <input type="text" class="form-control" id="jobStatus" name="jobStatus" placeholder="Enter job status" required>
+                  <select class="form-control" id="jobStatus" name="jobStatus">
+                    <option value="">Select Job Status</option>
+                    <option value="Employed">Employed</option>
+                    <option value="Unemployed">Unemployed</option>
+                    <option value="Self-employed">Self-employed</option>
+                    <option value="Student">Student</option>
+                    <option value="Retired">Retired</option>
+                  </select>
+                  
                 </div>
               </div>
               
@@ -313,6 +334,7 @@
                 <div class="col-12 col-md-6">
                   <label for="supervisorName" class="form-label">Supervisor Name</label>
                   <input type="text" class="form-control" id="supervisorName" name="supervisorName" placeholder="Enter supervisor's name">
+                  <span id="ssupervisorName" class="errorform"></span>
                 </div>
               </div>
               
@@ -320,6 +342,7 @@
                 <div class="col-12 col-md-6">
                   <label for="supervisorPhone" class="form-label">Supervisor's Phone #</label>
                   <input type="tel" class="form-control" id="supervisorPhone" name="supervisorPhone" placeholder="Enter supervisor's phone number">
+                <span id="ssupervisorPhone" class="errorform"></span>
                 </div>
                 <div class="col-12 col-md-6">
                   <label for="employmentCity" class="form-label">Employment City</label>
@@ -393,22 +416,220 @@
                 </div>
                 <div class="col-12 col-md-6">
                   <label for="employmentZip" class="form-label">Employment Zip</label>
-                  <input type="text" class="form-control" id="employmentZip" name="employmentZip" placeholder="Enter ZIP code">
+                  <input type="text" class="form-control" id="employmentZip" name="employmentZip" maxlength="5" placeholder="Enter ZIP code">
+                  <span id="semploymentZip" class="errorform"></span>
                 </div>
               </div>
-              
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="confirm" required>
-                <label class="form-check-label" for="confirm">
-                    confirm all above is correct and acknowledge you have signed credit app <span class="text-danger">*</span>
-                </label>
+
+            <div class="form-check mb-3">
+            <input type="checkbox" class="form-check-input form-check-lg" id="terms" required>
+            <label class="form-check-label" for="terms"> confirm all above is correct and acknowledge you have signed credit app <span class="text-danger">*</span></label>
             </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+
+        <!-- Submit Button (Centered) -->
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg">Submit Application</button>
+        </div>
         </form>
     </div>
 
     <script>
-        // Show trade-in details if the user has a trade-in
+
+      // Validation functions
+    // Validación para el campo phone
+    
+    // Validación para el campo firstname
+    $("#firstname").on("keypress", function (e) {
+      validarkeypress(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]*$/, e);
+    });
+    
+    $("#firstname").on("keyup", function () {
+      validarkeyup(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]{3,30}$/, $(this), $("#sfirstname"), "Only letters between 3 and 30 characters");
+    });
+    
+    // Validación para el campo lastname
+    $("#lastname").on("keypress", function (e) {
+      validarkeypress(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]*$/, e);
+    });
+    
+    $("#lastname").on("keyup", function () {
+      validarkeyup(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]{3,30}$/, $(this), $("#slastname"), "Only letters between 3 and 30 characters");
+    });
+    $("#phone").on("keypress", function (e) {
+        validarkeypress(/^[0-9-\b]*$/, e);
+    });
+    
+    $("#phone").on("keyup", function () {
+        validarkeyup(/^[0-9]{10,11}$/, $(this), $("#sphone"), "The format must be between 10 to 11 digits");
+    });
+
+// Validación para el campo zip (5 dígitos)
+$("#Zip").on("keypress", function (e) {
+    validarkeypress(/^[0-9\b]*$/, e);
+});
+
+$("#Zip").on("keyup", function () {
+    validarkeyup(/^[0-9]{5}$/, $(this), $("#sZip"), "The Zip code must be exactly 5 digits");
+});
+
+// Validación para el campo license (letras y números entre 5 y 15 caracteres)
+$("#license").on("keypress", function (e) {
+    validarkeypress(/^[A-Za-z0-9\b]*$/, e);
+});
+
+$("#license").on("keyup", function () {
+    validarkeyup(/^[A-Za-z0-9]{5,15}$/, $(this), $("#slicense"), "License must be between 5 and 15 characters");
+});
+$("#Social").on("input", function () {
+    let value = $(this).val().replace(/\D/g, "");  // Elimina todo lo que no sea un número
+    if (value.length > 3 && value.length <= 5) {
+        value = value.replace(/^(\d{3})(\d{1,2})$/, "$1-$2");
+    } else if (value.length > 5) {
+        value = value.replace(/^(\d{3})(\d{2})(\d{1,4})$/, "$1-$2-$3");
+    }
+    $(this).val(value);
+});
+
+
+$("#Social").on("keypress", function (e) {
+    validarkeypress(/^[0-9-\b]*$/, e);  // Solo permite números y guiones
+});
+
+$("#Social").on("keyup", function () {
+    validarkeyup(/^\d{3}-\d{2}-\d{4}$/, $(this), $("#sSocial"), "The format must be XXX-XX-XXXX");
+});
+
+$("#homePhone").on("keypress", function (e) {
+  validarkeypress(/^[0-9-\b]*$/, e);
+});
+
+$("#homePhone").on("keyup", function () {
+  validarkeyup(/^[0-9]{10,11}$/, $(this), $("#shomePhone"), "The format must be between 10 to 11 digits");
+});
+$("#workPhone").on("keypress", function (e) {
+  validarkeypress(/^[0-9-\b]*$/, e);
+});
+
+$("#workPhone").on("keyup", function () {
+  validarkeyup(/^[0-9]{10,11}$/, $(this), $("#sworkPhone"), "The format must be between 10 to 11 digits");
+});
+
+//Informacion de empleo
+
+$("#grossIncome").on("keypress", function (e) {
+  validarkeypress(/^[0-9-\b]*$/, e);
+});
+
+$("#grossIncome").on("keyup", function () {
+  validarkeyup(/^[0-9]{2,10}$/, $(this), $("#sgrossIncome"), "Only numbers between 2 and 10");
+});
+
+$("#employer").on("keypress", function (e) {
+  validarkeypress(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]*$/, e);
+});
+
+$("#employer").on("keyup", function () {
+  validarkeyup(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]{3,30}$/, $(this), $("#semployer"), "Only letters between 3 and 30 characters");
+});
+
+$("#occupation").on("keypress", function (e) {
+  validarkeypress(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]*$/, e);
+});
+
+$("#occupation").on("keyup", function () {
+  validarkeyup(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]{3,50}$/, $(this), $("#soccupation"), "Only letters between 3 and 50 characters");
+});
+
+$("#supervisorName").on("keypress", function (e) {
+  validarkeypress(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]*$/, e);
+});
+
+$("#supervisorName").on("keyup", function () {
+  validarkeyup(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]{3,30}$/, $(this), $("#ssupervisorName"), "Only letters between 3 and 30 characters");
+});
+
+
+$("#supervisorPhone").on("keypress", function (e) {
+  validarkeypress(/^[0-9-\b]*$/, e);
+});
+
+$("#supervisorPhone").on("keyup", function () {
+  validarkeyup(/^[0-9]{10,11}$/, $(this), $("#ssupervisorPhone"), "The format must be between 10 to 11 digits");
+});
+
+$("#employmentZip").on("keypress", function (e) {
+    validarkeypress(/^[0-9\b]*$/, e);
+});
+
+$("#employmentZip").on("keyup", function () {
+    validarkeyup(/^[0-9]{5}$/, $(this), $("#semploymentZip"), "The employmentZip code must be exactly 5 digits");
+});
+
+
+// Función de validación del envío
+function validarenvio() {
+  if (validarkeyup(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]{3,30}$/, $("#firstname"), $("#sfirstname"), "Only letters between 3 and 30 characters") === 0) {
+    alert("Error in firstname");
+    return false;
+  }
+  if (validarkeyup(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]{3,30}$/, $("#lastname"), $("#slastname"), "Only letters between 3 and 30 characters") === 0) {
+    alert("Error in lastname");
+    return false;
+  }
+  if (validarkeyup(/^[0-9]{10,11}$/, $("#phone"), $("#sphone"), "The format must be between 10 to 11 digits") === 0) {
+      alert("Error in phone");
+      return false;
+  }
+    if (validarkeyup(/^[0-9]{5}$/, $("#Zip"), $("#sZip"), "The Zip code must be exactly 5 digits") === 0) {
+        alert("Error in Zip");
+        return false;
+    }
+    if (validarkeyup(/^[A-Za-z0-9]{5,15}$/, $("#license"), $("#slicense"), "License must be between 5 and 15 characters") === 0) {
+        alert("Error in license");
+        return false;
+    }
+    if (validarkeyup(/^\d{3}-\d{2}-\d{4}$/, $("#Social"), $("#sSocial"), "The format must be XXX-XX-XXXX") == 0) {
+        alert("Error in SSN");
+        return false;
+    }
+    if (validarkeyup(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]{3,30}$/, $("#employer"), $("#semployer"), "Only letters between 3 and 30 characters") === 0) {
+    alert("Error in employer");
+    return false;
+  }
+    if (validarkeyup(/^[A-Za-z\b\s\u00f1\u00d1\u00E0-\u00FC]{3,50}$/, $("#occupation"), $("#soccupation"), "Only letters between 3 and 50 characters") == 0) {
+        alert("Error in occupation");
+        return false;
+    }
+
+    if (validarkeyup(/^[0-9]{2,10}$/, $("#grossIncome"), $("#sgrossIncome"), "Only numbers between 2 and 10") === 0) {
+      alert("Error in grossIncome");
+      return false;
+  }
+    return true;
+}
+
+       
+       
+       function validarkeypress(er, e) {
+    key = e.keyCode;
+    tecla = String.fromCharCode(key);
+    a = er.test(tecla);
+    if (!a) {
+        e.preventDefault();
+    }
+}
+
+// Función para validar la entrada después de escribir
+function validarkeyup(er, etiqueta, etiquetamensaje, mensaje) {
+    a = er.test(etiqueta.val());
+    if (a) {
+        etiquetamensaje.text("");
+        return 1;
+    } else {
+        etiquetamensaje.text(mensaje);
+        return 0;
+    }
+}
     </script>
 </body>
 </html>
