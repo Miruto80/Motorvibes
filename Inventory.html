@@ -5,8 +5,230 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car inventory</title>
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/Inventory.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/a994ffc8cf.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>inventory</h1>
+    <div class="top-bar" id="top-bar">
+        <div class="top-bar-content">
+            <span class="contact-info"><i class="fa-solid fa-phone"> Call us:</i><a href="tel:682-240-7569"> 682-240-7569</a></span>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/gPN8Gs2vAiGGviTC/?mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/motorvibesllc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-body">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/logo.png" alt="Logo Taekyon" width="150" height="120" class="d-inline-block align-text-top">
+          </a>
+          <a class="navbar-brand fs-4 d-none d-sm-inline d-lg-inline fs-lg-2" href="#">
+            <b>Your Journey Begins Here</b>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" id="Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Pre-approval.html">
+                  Pre-approval
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Contact us
+                </a>
+              </li>
+            </ul>
+        </div>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Car Inventory Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <h5>Filters</h5>
+                <form>
+                    <h6>Make</h6>
+                    <label><input type="checkbox" name="make" value="Honda"> Honda</label><br>
+                    <label><input type="checkbox" name="make" value="Toyota"> Toyota</label><br>
+                    <label><input type="checkbox" name="make" value="Ford"> Ford</label><br>
+                    <label><input type="checkbox" name="make" value="Chevrolet"> Chevrolet</label><br>
+                </form>
+            </div>
+            
+
+            <div class="col-md-9">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                    <h5 class="mb-0" id="results-count">Showing 12 results</h5>
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination mb-0" id="pagination"></ul>
+                    </nav>
+                </div>
+            
+                <div class="row g-2" id="car-list">
+                    <!-- Aquí se generarán los autos dinámicamente -->
+                </div>
+            </div>
+            
+            <!-- Modal para la galería de imágenes y datos del carro -->
+            <div class="modal fade" id="carModal" tabindex="-1" aria-labelledby="carModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="carModalLabel">Car Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body d-flex">
+                            <!-- Carrusel de imágenes (lado izquierdo) -->
+                            <div class="w-50 pe-3">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner" id="carousel-inner"></div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    </button>
+                                </div>
+                            </div>
+            
+                            <!-- Datos del carro (lado derecho) -->
+                            <div class="w-50">
+                                <p><strong>Price:</strong> <span id="car-price"></span></p>
+                                <p><strong>Year:</strong> <span id="car-year"></span></p>
+                                <p><strong>Mileage:</strong> <span id="car-mileage"></span></p>
+                                <p><strong>Description:</strong> <span id="car-description"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <script>
+                const cars = [
+                    {
+                        title: "2020 Honda CR-V",
+                        price: "$25,000",
+                        year: "2020",
+                        mileage: "30,000 miles",
+                        description: "A reliable and spacious SUV with great fuel efficiency.",
+                        images: [
+                            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (1).jpeg",
+                            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (1).jpeg",
+                            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (1).jpeg",
+                            "imagenes/Suvs/honda-crv-2.jpg",
+                            "imagenes/Suvs/honda-crv-3.jpg"
+                        ]
+                    },
+                    {
+                        title: "2021 Toyota RAV4",
+                        price: "$28,000",
+                        year: "2021",
+                        mileage: "20,000 miles",
+                        description: "A popular compact SUV with advanced safety features.",
+                        images: [
+                            "imagenes/Suvs/toyota-rav4-1.jpg",
+                            "imagenes/Suvs/toyota-rav4-2.jpg",
+                            "imagenes/Suvs/toyota-rav4-3.jpg"
+                        ]
+                    },
+                    // Más carros aquí
+                ];
+            
+                const itemsPerPage = 12;
+                let currentPage = 1;
+            
+                function renderCars(page) {
+                    const start = (page - 1) * itemsPerPage;
+                    const end = start + itemsPerPage;
+                    const carsToShow = cars.slice(start, end);
+            
+                    const carList = document.getElementById("car-list");
+                    carList.innerHTML = ""; // Limpiar los autos anteriores
+            
+                    carsToShow.forEach(car => {
+                        const carDiv = document.createElement("div");
+                        carDiv.className = "col-md-4";
+                        carDiv.innerHTML = `
+                            <div class="card" style="height: 100%;">
+                                <img src="${car.images[0]}" class="card-img-top" alt="${car.title}" data-bs-toggle="modal" data-bs-target="#carModal" onclick="openModal(${cars.indexOf(car)})">
+                                <div class="card-body">
+                                    <h5 class="card-title">${car.title}</h5>
+                                    <p class="card-text">Price: ${car.price}</p>
+                                </div>
+                            </div>
+                        `;
+                        carList.appendChild(carDiv);
+                    });
+            
+                    updatePagination();
+                }
+            
+                function openModal(carIndex) {
+                    const car = cars[carIndex];
+                    const carouselInner = document.getElementById("carousel-inner");
+                    carouselInner.innerHTML = ""; // Limpiar las imágenes anteriores en el modal
+            
+                    car.images.forEach((img, index) => {
+                        const itemDiv = document.createElement("div");
+                        itemDiv.className = `carousel-item ${index === 0 ? "active" : ""}`;
+                        itemDiv.innerHTML = `<img src="${img}" class="d-block w-100" alt="${car.title}">`;
+                        carouselInner.appendChild(itemDiv);
+                    });
+            
+                    // Mostrar datos del carro en el modal
+                    document.getElementById("car-price").textContent = car.price;
+                    document.getElementById("car-year").textContent = car.year;
+                    document.getElementById("car-mileage").textContent = car.mileage;
+                    document.getElementById("car-description").textContent = car.description;
+                }
+            
+                function updatePagination() {
+                    const totalPages = Math.ceil(cars.length / itemsPerPage);
+                    const pagination = document.getElementById("pagination");
+                    pagination.innerHTML = ""; // Limpiar la paginación anterior
+            
+                    for (let i = 1; i <= totalPages; i++) {
+                        const pageItem = document.createElement("li");
+                        pageItem.className = `page-item ${i === currentPage ? "active" : ""}`;
+                        pageItem.innerHTML = `<a class="page-link" href="#" onclick="goToPage(${i})">${i}</a>`;
+                        pagination.appendChild(pageItem);
+                    }
+                }
+            
+                function goToPage(page) {
+                    currentPage = page;
+                    renderCars(currentPage);
+                }
+            
+                // Renderizar la primera página al cargar
+                renderCars(currentPage);
+            </script>
+            
+            
+            
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2025 Motor Vibes LLC. All Rights Reserved.</p>
+    </footer>
+            
 </body>
 </html>
