@@ -435,6 +435,18 @@
 
     <script>
 
+
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+
+  const carName = getQueryParam('car');
+  if (carName) {
+    document.getElementById('carType').value = carName;
+  }
+
+
       // Validation functions
     // Validación para el campo phone
     
