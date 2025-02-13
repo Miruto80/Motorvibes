@@ -1,10 +1,11 @@
 const cars = [
     {
-        title: "2020 Honda CR-V",
+        title: "TOYOTA 4RUNNER LIMITED NIGHTSHADE",
         price: "$25,000",
         year: "2020",
         mileage: "30,000 miles",
         description: "A reliable and spacious SUV with great fuel efficiency.",
+        make: "Toyota",
         images: [
             "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (1).jpeg",
             "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (2).jpeg",
@@ -12,15 +13,29 @@ const cars = [
         ]
     },
     {
-        title: "2021 Toyota RAV4",
+        title: "HINO 2018 268 26 FT",
         price: "$28,000",
         year: "2021",
         mileage: "20,000 miles",
+        make: "Hino",
         description: "A popular compact SUV with advanced safety features.",
         images: [
             "imagenes/Trucks/HINO 2018 268 26 FT (1).jpeg",
-            "imagenes/Suvs/toyota-rav4-2.jpg",
-            "imagenes/Suvs/toyota-rav4-3.jpg"
+            "imagenes/Trucks/HINO 2018 268 26 FT (2).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (3).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (4).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (5).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (6).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (7).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (8).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (9).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (10).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (11).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (12).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (13).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (14).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (15).jpeg",
+            "imagenes/Trucks/HINO 2018 268 26 FT (16).jpeg"
         ]
     },
     // Más carros aquí
@@ -29,10 +44,10 @@ const cars = [
 const itemsPerPage = 12;
 let currentPage = 1;
 
-function renderCars(page) {
+function renderCars(page, filteredCars = cars) {
     const start = (page - 1) * itemsPerPage;
     const end = start + itemsPerPage;
-    const carsToShow = cars.slice(start, end);
+    const carsToShow = filteredCars.slice(start, end);
 
     const carList = document.getElementById("car-list");
     carList.innerHTML = ""; // Limpiar los autos anteriores
@@ -93,5 +108,16 @@ function goToPage(page) {
     renderCars(currentPage);
 }
 
+function filterCars() {
+    const selectedMakes = Array.from(document.querySelectorAll('input[name="make"]:checked')).map(cb => cb.value);
+    const filteredCars = cars.filter(car => selectedMakes.length === 0 || selectedMakes.includes(car.make));
+    renderCars(1, filteredCars);
+}
+
+document.querySelectorAll('input[name="make"]').forEach(checkbox => {
+    checkbox.addEventListener('change', filterCars);
+});
+
+
 // Renderizar la primera página al cargar
-renderCars(currentPage);
+renderCars(1);

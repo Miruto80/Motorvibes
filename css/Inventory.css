@@ -83,15 +83,16 @@ body{
 .carousel-control-next {
   width: auto; /* Elimina el fondo grande */
   background: none;
+  border: none !important;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: transparent;
+  background-color: black !important;
   border: none;
   filter: none;
-  width: 30px;
-  height: 30px;
+  width: 40px !important;
+  height: 40px !important;
 }
 .modal-lg {
     max-width: 90%;
@@ -161,6 +162,8 @@ footer {
     padding: 10px 0px;
     text-align: center;
     width: 100%;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    margin: 0; /* Elimina posibles márgenes extra */
 }
 
 .redes-sociales {
