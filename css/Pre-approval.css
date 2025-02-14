@@ -7,6 +7,8 @@ body{
     padding: 0;
     transition: background-color 0.6s ease;
     background-color: white;
+    position: relative; /* Asegúrate de que el body tenga un posicionamiento */
+    z-index: 1; 
 }
 .top-bar {
     background-color: #333; /* Dark background for contrast */
@@ -80,7 +82,134 @@ body{
     font-size: 0.9em;
     display: block;
 }
+.container {
+    position: relative !important; /* O absolute, dependiendo de lo que necesites */
+    z-index: 10 !important;
+    border: 1px solid black; /* Un valor mayor para que sobresalga sobre el cuerpo */
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
 
 form button{
     margin-bottom:10px !important;
+}
+
+.form-label{
+    font-weight: bold !important;
+    margin-top: 5px !important;
+}
+
+.btn-primary {
+    background-color: black !important;
+    border: none !important;
+    transition: background-color 0.3 ease-in-out !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: gold !important;
+    color: black !important;
+  }
+
+  footer {
+    background: black;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    margin: 0; /* Elimina posibles márgenes extra */
+}
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociales a {
+    color: white;
+    font-size: 30px;
+    margin: 0 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.redes-sociales i {
+padding: 5px;
+}
+
+.redes-sociales a:hover {
+    color: #0782fa; /* Color al pasar el cursor */
+    transform: scale(1.2); /* Efecto de ampliación al pasar el cursor */
+}
+
+.legal {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el botón y el contenido en el centro */
+    margin-top: 20px;
+}
+
+#legal-button {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#legal-button i {
+    margin-left: 10px; /* Espacio entre el texto y la flecha */
+}
+
+#legal-button:hover {
+    background-color: #333;
+    transform: translateY(-3px);
+}
+
+/* Contenido oculto del menú desplegable */
+#legal-content {
+    display: none;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+#legal-content p {
+    margin: 5px 0;
+}
+
+/* Mostrar contenido cuando el botón es presionado */
+#legal-content.show {
+    display: block;
+}
+@media (max-width: 768px) {
+    .redes-sociales{
+        flex-direction: column;
+    }
+    
+    .redes-sociales a {
+        margin: 5px 0;
+    }
+
+    .legal {
+        margin-top: 10px;
+    }
+
+    #legal-button {
+        font-size: 14px;
+    }
+
+    #legal-content {
+        font-size: 12px;
+    }
+
 }

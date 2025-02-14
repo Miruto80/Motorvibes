@@ -1,24 +1,36 @@
 const cars = [
     {
         title: "TOYOTA 4RUNNER LIMITED NIGHTSHADE",
-        price: "$25,000",
-        year: "2020",
-        mileage: "30,000 miles",
-        description: "A reliable and spacious SUV with great fuel efficiency.",
+        price: "$32,000",
+        down: "$6,000",
+        cash: "$30,900",
+        year: "2019",
+        mileage: "113.000 miles",
+        description: "TÍTULO LIMPIO  PERFECTA PARA LA FAMILIA  PANTALLA  CÁMARA DE RETROCESO   ASIENTOS DE CUERO  QUEMACOCO  LLANTAS 90%  A/C FRÍO Y CALIENTE  RIN DE LUJO IMPECABLE",
         make: "Toyota",
         images: [
             "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (1).jpeg",
             "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (2).jpeg",
-            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (3).jpeg"
+            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (3).jpeg",
+            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (4).jpeg",
+            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (5).jpeg",
+            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (6).jpeg",
+            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (7).jpeg",
+            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (8).jpeg",
+            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (9).jpeg",
+            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (10).jpeg",
+            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (11).jpeg",
+            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (12).jpeg",
+            "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (13).jpeg"
         ]
     },
     {
         title: "HINO 2018 268 26 FT",
-        price: "$28,000",
+        price: "$37.999",
         year: "2021",
-        mileage: "20,000 miles",
+        mileage: "180.000 miles",
         make: "Trucks",
-        description: "A popular compact SUV with advanced safety features.",
+        description: "TÍTULO LIMPIO PERFECTO PARA EL TRANSPORTE LLANTAS NUEVAS LIFT GATE DE ALUMINIO A/C FRÍO Y CALIENTE 1 SOLO DUEÑO FRENO DE AIRE ASIENTOS DE CUERO ALLISON TRASMISSION  MOTOR TOYOTA 7.6L SE PUEDES FINANCIAR ",
         images: [
             "imagenes/Trucks/HINO 2018 268 26 FT (1).jpeg",
             "imagenes/Trucks/HINO 2018 268 26 FT (2).jpeg",
@@ -41,10 +53,10 @@ const cars = [
     {
         title: "HINO 2020 268 26 FT",
         price: "$28,000",
-        year: "2021",
-        mileage: "20,000 miles",
+        year: "2020 ",
+        mileage: "200.000 miles",
         make: "Trucks",
-        description: "A popular compact SUV with advanced safety features.",
+        description: "TÍTULO LIMPIO PERFECTO PARA EL TRANSPORTE LLANTAS NUEVAS LIFT GATE DE ALUMINIO A/C FRÍO Y CALIENTE  1 SOLO DUEÑO FRENO DE AIRE ASIENTOS DE CUERO ALLISON TRASMISSION  MOTOR TOYOTA 7.6LSE PUEDES FINANCIAR  ",
         images: [
             "imagenes/Trucks/HINO 2020 268 26 FT (1).jpeg",
             "imagenes/Trucks/HINO 2020 268 26 FT (2).jpeg",
@@ -109,11 +121,15 @@ function openModal(carIndex) {
         carouselInner.appendChild(itemDiv);
     });
 
+    document.getElementById("carModalLabel").textContent = car.title;
+
     // Mostrar datos del carro en el modal
     document.getElementById("car-price").textContent = car.price;
     document.getElementById("car-year").textContent = car.year;
     document.getElementById("car-mileage").textContent = car.mileage;
     document.getElementById("car-description").textContent = car.description;
+    document.getElementById("car-down").textContent = car.down || 'N/A';
+    document.getElementById("car-cash").textContent = car.cash || 'N/A';
 }
 
 function updatePagination() {
@@ -147,3 +163,8 @@ document.querySelectorAll('input[name="make"]').forEach(checkbox => {
 
 // Renderizar la primera página al cargar
 renderCars(1);
+
+document.getElementById('legal-button').addEventListener('click', function () {
+    const legalContent = document.getElementById('legal-content');
+    legalContent.classList.toggle('show');
+});

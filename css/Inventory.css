@@ -126,6 +126,10 @@ body{
     transition: none !important;
 }
 
+.modal-title{
+    font-weight: bold !important;
+}
+
 .btn {
     border-radius: 8px;
     font-size: 16px;
@@ -133,12 +137,12 @@ body{
   }
   
   .btn-primary {
-    background-color: #8055CA;
-    border: none;
+    border: none !important;
+    transition: background-color 0.3 ease-in-out !important;
   }
   
   .btn-primary:hover {
-    background-color: #6f45bd;
+    background-color: black !important;
   }
   
   .btn-success {
@@ -153,6 +157,12 @@ body{
 
 /* Para pantallas más pequeñas, hacer el modal más grande */
 @media (max-width: 767px) {
+
+    .carousel-inner img {
+        object-fit: contain;
+        width: auto;
+        height: auto; /* Máxima altura para las imágenes */
+    }
     .modal-dialog {
         max-width: 95%; /* Aumentar el tamaño en pantallas pequeñas */
     }
