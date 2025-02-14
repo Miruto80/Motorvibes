@@ -112,6 +112,15 @@ body{
     height: 400px; /* Máxima altura para las imágenes */
 }
 
+.btn-close {
+    background-color: #f44336 !important;
+    color: white !important;
+    border: none;
+}
+.btn-close:hover {
+    background-color: #8f2821 !important;
+}
+
 /* Quitar la transición al cambiar de imagen */
 .carousel-item {
     transition: none !important;

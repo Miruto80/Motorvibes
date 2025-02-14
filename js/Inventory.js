@@ -17,7 +17,7 @@ const cars = [
         price: "$28,000",
         year: "2021",
         mileage: "20,000 miles",
-        make: "Hino",
+        make: "Trucks",
         description: "A popular compact SUV with advanced safety features.",
         images: [
             "imagenes/Trucks/HINO 2018 268 26 FT (1).jpeg",
@@ -36,6 +36,32 @@ const cars = [
             "imagenes/Trucks/HINO 2018 268 26 FT (14).jpeg",
             "imagenes/Trucks/HINO 2018 268 26 FT (15).jpeg",
             "imagenes/Trucks/HINO 2018 268 26 FT (16).jpeg"
+        ]
+    },
+    {
+        title: "HINO 2020 268 26 FT",
+        price: "$28,000",
+        year: "2021",
+        mileage: "20,000 miles",
+        make: "Trucks",
+        description: "A popular compact SUV with advanced safety features.",
+        images: [
+            "imagenes/Trucks/HINO 2020 268 26 FT (1).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (2).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (3).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (4).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (5).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (6).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (7).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (8).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (9).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (10).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (11).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (12).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (13).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (14).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (15).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (16).jpeg"
         ]
     },
     // Más carros aquí
