@@ -22,7 +22,8 @@ const cars = [
             "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (11).jpeg",
             "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (12).jpeg",
             "imagenes/Suvs/TOYOTA 4RUNNER LIMITED NIGHTSHADE 4x4 2019 (13).jpeg"
-        ]
+        ],
+        soldOut: true
     },
     {
         title: "HINO 2018 268 26 FT",
@@ -48,7 +49,8 @@ const cars = [
             "imagenes/Trucks/HINO 2018 268 26 FT (14).jpeg",
             "imagenes/Trucks/HINO 2018 268 26 FT (15).jpeg",
             "imagenes/Trucks/HINO 2018 268 26 FT (16).jpeg"
-        ]
+        ],
+        soldOut: false
     },
     {
         title: "HINO 2020 268 26 FT",
@@ -74,7 +76,8 @@ const cars = [
             "imagenes/Trucks/HINO 2020 268 26 FT (14).jpeg",
             "imagenes/Trucks/HINO 2020 268 26 FT (15).jpeg",
             "imagenes/Trucks/HINO 2020 268 26 FT (16).jpeg"
-        ]
+        ],
+        soldOut: false
     },
     // Más carros aquí
 ];
@@ -96,6 +99,7 @@ function renderCars(page, filteredCars = cars) {
         carDiv.innerHTML = `
             <div class="card" style="height: 100%;">
                 <img src="${car.images[0]}" class="card-img-top" alt="${car.title}" title="Clik in the image to see more" data-bs-toggle="modal" data-bs-target="#carModal" onclick="openModal(${cars.indexOf(car)})">
+                ${car.soldOut ? `<div class="sold-out-banner">SOLD</div>` : ""}
                 <div class="card-body">
                     <h5 class="card-title">${car.title}</h5>
                     <p class="card-text">Price: ${car.price}</p>
