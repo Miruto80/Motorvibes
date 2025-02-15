@@ -52,7 +52,7 @@ const cars = [
     },
     {
         title: "HINO 2020 268 26 FT",
-        price: "$37,999",
+        price: "$39,999",
         year: "2020 ",
         mileage: "200.000 miles",
         make: "Trucks",
