@@ -75,7 +75,8 @@ const cars = [
             "imagenes/Trucks/HINO 2020 268 26 FT (13).jpeg",
             "imagenes/Trucks/HINO 2020 268 26 FT (14).jpeg",
             "imagenes/Trucks/HINO 2020 268 26 FT (15).jpeg",
-            "imagenes/Trucks/HINO 2020 268 26 FT (16).jpeg"
+            "imagenes/Trucks/HINO 2020 268 26 FT (16).jpeg",
+            "imagenes/Trucks/HINO 2020 268 26 FT (17).jpeg"
         ],
         soldOut: false
     },
