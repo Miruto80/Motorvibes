@@ -79,6 +79,10 @@ body{
     max-height: 500px;
     overflow-y: auto;
 }
+.modal-body img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
 .carousel-control-prev,
 .carousel-control-next {
   width: auto; /* Elimina el fondo grande */
@@ -100,6 +104,7 @@ body{
 
 .card-img-top{
     transition: transform 0.3s ease-in-out;
+    cursor: pointer;
 }
 .card-img-top:hover{
     transform: scale(1.1);
