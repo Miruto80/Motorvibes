@@ -121,9 +121,10 @@ function openModal(carIndex) {
     car.images.forEach((img, index) => {
         const itemDiv = document.createElement("div");
         itemDiv.className = `carousel-item ${index === 0 ? "active" : ""}`;
-        itemDiv.innerHTML = `<img src="${img}" class="d-block w-100" alt="${car.title}" title="Click here to see full image" onclick="openImageInNewTab('${img}')">`;
+        itemDiv.innerHTML = `<a href="${img}" target="_blank"><img src="${img}" class="d-block w-100" alt="${car.title}" title="Click here to see full image"></a>`;
         carouselInner.appendChild(itemDiv);
     });
+    
 
     document.getElementById("carModalLabel").textContent = car.title;
 
@@ -172,13 +173,4 @@ document.getElementById('legal-button').addEventListener('click', function () {
     const legalContent = document.getElementById('legal-content');
     legalContent.classList.toggle('show');
 });
-
-function openImageInNewTab(imageSrc) {
-    const newTab = window.open();
-    // Aseguramos que se está cargando el contenido correctamente
-    newTab.document.write('<html><head><title>Image View</title>  <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon"></head><body style="margin: 0; padding: 0;">');
-    newTab.document.write(`<img src="${imageSrc}" style="width: 100%; height: auto; objet-fit:cover; display: block; margin: 0 auto;">`);
-    newTab.document.write('</body></html>');
-    newTab.document.close();
-}
 

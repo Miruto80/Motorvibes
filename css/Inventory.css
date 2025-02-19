@@ -81,7 +81,6 @@ body{
 }
 .modal-body img {
     cursor: pointer;
-    transition: transform 0.3s ease;
 }
 .carousel-control-prev,
 .carousel-control-next {
