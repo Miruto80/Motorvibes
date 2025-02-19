@@ -81,7 +81,7 @@ body{
 }
 .modal-body img {
     cursor: pointer;
-}
+  }
 .carousel-control-prev,
 .carousel-control-next {
   width: auto; /* Elimina el fondo grande */
@@ -103,7 +103,6 @@ body{
 
 .card-img-top{
     transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 .card-img-top:hover{
     transform: scale(1.1);
