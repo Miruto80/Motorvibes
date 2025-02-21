@@ -8,9 +8,11 @@
     <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/Pre-approval.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="https://kit.fontawesome.com/a994ffc8cf.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 </head>
 <body>
     <div class="top-bar" id="top-bar">
@@ -80,10 +82,10 @@
                     <span id="sphone" class="errorform"></span>
                 </div>
                 <div class="col-12 col-md-6">
-                    <label for="dob" class="form-label">Date of Birth<span class="text-danger">*</span></label>
-                  <input type="date" class="form-control" id="dob" name="dob" required max="2005-12-31" required>
-                <small class="form-text text-muted">You must be at least 18 years old to apply.</small>
-                </div>
+                  <label for="dob" class="form-label">Date of Birth<span class="text-danger">*</span></label>
+                  <input type="text" placeholder="Click here to insert your date of birth" class="form-control" id="dob" name="dob" required>
+                  <small class="form-text text-muted">You must be at least 18 years old to apply.</small>
+              </div>
             </div>
             <div class="row mb-3">
               <div class="col-12 col-md-4">
@@ -153,11 +155,11 @@
                   <span id="slicense" class="errorform"></span>
                 </div>
               </div>
-            <div class="row mb-3">
+              <div class="row mb-3">
                 <div class="col-12 col-md-4">
-                    <label for="City" class="form-label">City <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control" id="City" name="City" required>
-                    <span id="sCity" class="errorform"></span>
+                  <label for="City" class="form-label">City <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="City" name="City" required>
+                  <span id="sCity" class="errorform"></span>
                 </div>
                 <div class="col-12 col-md-4">
                   <label for="state" class="form-label">Select your state <span class="text-danger">*</span></label>
@@ -221,6 +223,12 @@
                   <span id="sZip" class="errorform"></span>
                 </div>
               </div>
+              <div class="row mb-3">
+                <div class="col-12">
+                    <label for="Address" class="form-label">Address<span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="Address" name="Address" required>
+                </div>
+            </div>
               <div class="row mb-3">
                   <div class="col-12">
                       <label for="carType" class="form-label">Car of interest <span class="text-danger">*</span></label>
@@ -455,5 +463,12 @@
       </div>
   </footer>
 <script src="js/Pre-approval.js"></script>
+<script>
+  // Inicializar Flatpickr con formato MM/DD/YYYY
+  flatpickr("#dob", {
+    dateFormat: "m/d/Y", // Formato MM/DD/YYYY
+    maxDate: new Date().setFullYear(new Date().getFullYear() - 18) // Limitar fecha máxima a 18 años atrás
+  });
+  </script>
 </body>
 </html>
