@@ -103,7 +103,7 @@ function renderCars(page, filteredCars = cars) {
                 <div class="card-body">
                     <h5 class="card-title">${car.title}</h5>
                     <p class="card-text">Price: ${car.price}</p>
-                    <a href="pre-approval.html?car=${encodeURIComponent(car.title)}" class="btn btn-primary w-100">Get Pre-Approval</a>
+                    <a href="Pre-approval.html?car=${encodeURIComponent(car.title)}" class="btn btn-primary w-100">Get Pre-Approval</a>
                 </div>
             </div>
         `;
