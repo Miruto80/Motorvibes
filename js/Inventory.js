@@ -28,6 +28,8 @@ const cars = [
     {
         title: "HINO 2018 268 26 FT",
         price: "$37.999",
+        down: "",
+        cash: "",
         year: "2021",
         mileage: "180.000 miles",
         make: "Trucks",
@@ -50,11 +52,13 @@ const cars = [
             "imagenes/Trucks/HINO 2018 268 26 FT (15).jpeg",
             "imagenes/Trucks/HINO 2018 268 26 FT (16).jpeg"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "HINO 2020 268 26 FT",
         price: "$39,999",
+        down: "",
+        cash: "",
         year: "2020 ",
         mileage: "200.000 miles",
         make: "Trucks",
@@ -76,6 +80,86 @@ const cars = [
             "imagenes/Trucks/HINO 2020 268 26 FT (14).jpeg",
             "imagenes/Trucks/HINO 2020 268 26 FT (15).jpeg",
             "imagenes/Trucks/HINO 2020 268 26 FT (16).jpeg"
+        ],
+        soldOut: true
+    },
+    {
+        title: "TOYOTA COROLLA LE 2009",
+        price: "$6.900",
+        down: "$2.500",
+        cash: "$6.900",
+        year: "2009",
+        mileage: "152.000 miles",
+        make: "Toyota",
+        description: "TÍTULO LIMPIO UN SOLO DUEÑO A/C FRIO Y CALIENTE LLANTAS 90% IMPECABLE",
+        images: [
+            "imagenes/Sedans/TOYOTA COROLLA LE 2009 (1).jpeg",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2009 (2).jpeg",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2009 (3).jpeg",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2009 (4).jpeg",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2009 (5).jpeg",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2009 (6).jpeg",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2009 (7).jpeg",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2009 (8).jpeg",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2009 (9).jpeg",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2009 (10).jpeg",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2009 (11).jpeg",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2009 (12).jpeg"
+        ],
+        soldOut: false
+    },
+    {
+        title: "FIAT 500 SPORT 2018",
+        price: "$7.900",
+        down: "$2.500",
+        cash: "$7.900 ",
+        year: "2018",
+        mileage: "123.000 miles",
+        make: "Fiat",
+        description: "TÍTULO LIMPIO A/C FRÍO Y CALIENTE RINES DE LUJO IMPECABLE UN SOLO DUEÑO SUPER ECONÓMICO ",
+        images: [
+            "imagenes/Suvs/FIAT 500 SPORT 2018 (1).jpeg",
+            "imagenes/Suvs/FIAT 500 SPORT 2018 (2).jpeg",
+            "imagenes/Suvs/FIAT 500 SPORT 2018 (3).jpeg",
+            "imagenes/Suvs/FIAT 500 SPORT 2018 (4).jpeg",
+            "imagenes/Suvs/FIAT 500 SPORT 2018 (5).jpeg",
+            "imagenes/Suvs/FIAT 500 SPORT 2018 (6).jpeg",
+            "imagenes/Suvs/FIAT 500 SPORT 2018 (7).jpeg",
+            "imagenes/Suvs/FIAT 500 SPORT 2018 (8).jpeg",
+            "imagenes/Suvs/FIAT 500 SPORT 2018 (9).jpeg",
+            "imagenes/Suvs/FIAT 500 SPORT 2018 (10).jpeg",
+            "imagenes/Suvs/FIAT 500 SPORT 2018 (11).jpeg",
+            "imagenes/Suvs/FIAT 500 SPORT 2018 (12).jpeg",
+            "imagenes/Suvs/FIAT 500 SPORT 2018 (13).jpeg"
+        ],
+        soldOut: false
+    },
+    {
+        title: "INTERNATIONAL M2 2020 26FT",
+        price: "$39,900",
+        down: "",
+        cash: "",
+        year: "2020",
+        mileage: "173.000 miles",
+        make: "Trucks",
+        description: "TÍTULO LIMPIO COMO NUEVO CUMMINS ENGINE 6.7L ALLISON TRANSMISSION LLANTAS 90% A/C FRIO Y CALIENTE  LIFTGATE AL 💯 ASIENTOS DE CUERO LISTO PARA TRABAJAR CARFAX 100 LIMPIO IMPECABLE  SE PUEDE FINANCIAR ",
+        images: [
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (1).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (2).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (3).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (4).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (5).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (6).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (7).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (8).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (9).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (10).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (11).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (12).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (13).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (14).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (15).jpeg",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (16).jpeg"
         ],
         soldOut: true
     },
