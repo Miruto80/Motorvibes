@@ -220,7 +220,7 @@ const cars = [
             "imagenes/Trucks/HINO 2020 268 26 FT (15) 1.jpeg",
             "imagenes/Trucks/HINO 2020 268 26 FT (16) 1.jpeg"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "INTERNATIONAL 4300 2019 26FT",
