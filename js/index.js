@@ -15,7 +15,14 @@ function previousImage() {
     carouselBg.src = images[currentImageIndex];
 }
 
+
 document.getElementById('legal-button').addEventListener('click', function () {
     const legalContent = document.getElementById('legal-content');
     legalContent.classList.toggle('show');
 });
+var fecha = new Date();
+var año = fecha.getFullYear();
+let copy = document.getElementById("Copy");
+
+copy.innerHTML = "&copy; Motorvibes " + año;
+
