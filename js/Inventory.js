@@ -227,7 +227,7 @@ const cars = [
         price: "$41.900",
         down: "",
         cash: "",
-        year: "2020",
+        year: "2019",
         mileage: "149.000 miles",
         make: "Trucks",
         description: "TÍTULO LIMPIO COMO NUEVO CUMMINS ENGINE 6.7L ALLISON TRANSMISSION  LLANTAS 90% A/C FRIO Y CALIENTE  LIFTGATE DE ALUMINIO AL 💯  ASIENTOS DE CUEROLISTO PARA TRABAJAR CARFAX 100 LIMPIO  IMPECABLE  SE PUEDE FINANCIAR ",
