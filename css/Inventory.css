@@ -173,6 +173,11 @@ body{
 
 /* Para pantallas más pequeñas, hacer el modal más grande */
 @media (max-width: 767px) {
+     
+    #descripcion{
+        display: none;
+    }
+
 
     .carousel-inner img {
         object-fit: contain;

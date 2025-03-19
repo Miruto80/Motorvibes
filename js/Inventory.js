@@ -191,7 +191,7 @@ const cars = [
             "imagenes/Trucks/FREIGHTLINER M2 106 2015 (16).jpeg",
             "imagenes/Trucks/FREIGHTLINER M2 106 2015 (17).jpeg"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "HINO 2020 268 26 FT",
