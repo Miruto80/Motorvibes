@@ -258,6 +258,9 @@ const itemsPerPage = 12;
 let currentPage = 1;
 
 function renderCars(page, filteredCars = cars) {
+
+    filteredCars.sort((a, b) => a.soldOut - b.soldOut);
+
     const start = (page - 1) * itemsPerPage;
     const end = start + itemsPerPage;
     const carsToShow = filteredCars.slice(start, end);
