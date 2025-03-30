@@ -251,6 +251,64 @@ const cars = [
         ],
         soldOut: false
     },
+    {
+        title: "INTERNATIONAL MV607 2022 26FT",
+        price: "$42.900",
+        down: "",
+        cash: "",
+        year: "2022",
+        mileage: "141.000 miles",
+        make: "Trucks",
+        description: "TÍTULO LIMPIO CUMMINS ENGINE 6.7L ALLISON TRANSMISSION LLANTAS 80% A/C FRIO Y CALIENTE LIFTGATE AL 💯 ALUMINIO ASIENTOS DE CUERO LISTO PARA TRABAJAR CARFAX 100 LIMPIO IMPECABLE SE PUEDE FINANCIAR",
+        images: [
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (1).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (2).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (3).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (4).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (5).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (6).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (7).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (8).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (9).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (10).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (11).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (12).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (13).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (14).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (15).jpeg",
+            "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (16).jpeg"
+        ],
+        soldOut: false
+    },
+    {
+        title: "HINO 2019 268 26 FT",
+        price: "$37.900",
+        down: "",
+        cash: "",
+        year: "2022",
+        mileage: "158.000 miles",
+        make: "Trucks",
+        description: "TÍTULO LIMPIO PERFECTO PARA EL TRANSPORTE LLANTAS NUEVAS LIFT GATE NO CDL25950 LBS 158.000  MILLASA/C FRÍO Y CALIENTE 1 SOLO DUEÑO FRENO DE AIRE ASIENTOS DE CUERO ALLISON TRASMISSION MOTOR TOYOTA 7.6L SE PUEDES FINANCIAR ",
+        images: [
+            "imagenes/Trucks/HINO 2019 268 26 FT (1).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (2).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (3).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (4).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (5).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (6).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (7).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (8).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (9).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (10).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (11).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (12).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (13).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (14).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (15).jpeg",
+            "imagenes/Trucks/HINO 2019 268 26 FT (16).jpeg"
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
