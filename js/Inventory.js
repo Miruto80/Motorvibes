@@ -307,7 +307,7 @@ const cars = [
             "imagenes/Trucks/HINO 2019 268 26 FT (15).jpeg",
             "imagenes/Trucks/HINO 2019 268 26 FT (16).jpeg"
         ],
-        soldOut: false
+        soldOut: true
     },
     // Más carros aquí
 ];
