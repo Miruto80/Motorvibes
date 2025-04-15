@@ -424,6 +424,36 @@ const cars = [
         ],
         soldOut: false
     },
+    {
+        title: "FORD F250 SUPER DUTY 4x4 2012",
+        price: "$21.900",
+        down: "",
+        cash: "",
+        year: "2021",
+        mileage: "196.000 miles",
+        make: "Ford",
+        description: "TÍTULO LIMPIO TÍTULO LIMPIO MODELO KING RANCH ASIENTOS DE CUERO QUEMACOCO LLANTAS 90% A/C FRÍO Y CALIENTE  SUSPENSIÓN 8 CILINDROS 6.7L LISTA PARA EL JALE IMPECABLE SE PUEDES FINANCIAR ",
+        images: [
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (1).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (2).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (3).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (4).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (5).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (6).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (7).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (8).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (9).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (10).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (11).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (12).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (13).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (14).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (15).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (16).jpeg",
+            "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (17).jpeg"
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
