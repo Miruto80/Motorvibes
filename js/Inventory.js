@@ -106,7 +106,7 @@ const cars = [
             "imagenes/Sedans/TOYOTA COROLLA LE 2009 (11).jpeg",
             "imagenes/Sedans/TOYOTA COROLLA LE 2009 (12).jpeg"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "FIAT 500 SPORT 2018",
@@ -249,7 +249,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL 4300 2019 26FT (15).jpeg",
             "imagenes/Trucks/INTERNATIONAL 4300 2019 26FT (16).jpeg"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "INTERNATIONAL MV607 2022 26FT",
@@ -278,7 +278,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (15).jpeg",
             "imagenes/Trucks/INTERNATIONAL MV607 2022 26FT (16).jpeg"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "HINO 2019 268 26 FT",
