@@ -452,7 +452,7 @@ const cars = [
             "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (16).jpeg",
             "imagenes/Trucks/FORD F250 SUPER DUTY 4x4 2012 (17).jpeg"
         ],
-        soldOut: false
+        soldOut: true
     },
     // Más carros aquí
 ];
