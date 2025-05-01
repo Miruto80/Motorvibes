@@ -454,6 +454,32 @@ const cars = [
         ],
         soldOut: true
     },
+    {
+        title: "2008 NISSAN ROGUE S AWD",
+        price: "$3.000",
+        down: "",
+        cash: "",
+        year: "2008",
+        mileage: "188.000 miles",
+        make: "Nissan",
+        description: "TÍTULO LIMPIO A/C FRÍO Y CALIENTE 4 CILINDROS ECONÓMICA EN GASOLINA LLANTAS BUENAS CON RINES MOTOR AL 💯 TRANSMISIÓN 💯 ",
+        images: [
+            "imagenes/Suvs/2008 NISSAN ROGUE S AWD (1).jpeg",
+            "imagenes/Suvs/2008 NISSAN ROGUE S AWD (2).jpeg",
+            "imagenes/Suvs/2008 NISSAN ROGUE S AWD (3).jpeg",
+            "imagenes/Suvs/2008 NISSAN ROGUE S AWD (4).jpeg",
+            "imagenes/Suvs/2008 NISSAN ROGUE S AWD (5).jpeg",
+            "imagenes/Suvs/2008 NISSAN ROGUE S AWD (6).jpeg",
+            "imagenes/Suvs/2008 NISSAN ROGUE S AWD (7).jpeg",
+            "imagenes/Suvs/2008 NISSAN ROGUE S AWD (8).jpeg",
+            "imagenes/Suvs/2008 NISSAN ROGUE S AWD (9).jpeg",
+            "imagenes/Suvs/2008 NISSAN ROGUE S AWD (10).jpeg",
+            "imagenes/Suvs/2008 NISSAN ROGUE S AWD (11).jpeg",
+            "imagenes/Suvs/2008 NISSAN ROGUE S AWD (12).jpeg",
+            "imagenes/Suvs/2008 NISSAN ROGUE S AWD (13).jpeg"
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
