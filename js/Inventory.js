@@ -562,7 +562,7 @@ const cars = [
             "imagenes/Sedans/HONDA CIVIC LX 2013 (14).webp",
             "imagenes/Sedans/HONDA CIVIC LX 2013 (15).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     // Más carros aquí
 ];
