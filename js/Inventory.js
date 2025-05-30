@@ -132,7 +132,7 @@ const cars = [
             "imagenes/Suvs/FIAT 500 SPORT 2018 (12).jpeg",
             "imagenes/Suvs/FIAT 500 SPORT 2018 (13).jpeg"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "INTERNATIONAL M2 2020 26FT",
@@ -336,7 +336,7 @@ const cars = [
             "imagenes/Suvs/2016 GMC SAVANA G2500 (15).jpeg",
             "imagenes/Suvs/2016 GMC SAVANA G2500 (16).jpeg"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "2016 GMC TERRAIN SLE",
@@ -374,7 +374,7 @@ const cars = [
         cash: "",
         year: "2017",
         mileage: "66.000 miles",
-        make: "GMC",
+        make: "Chevrolet",
         description: "TÍTULO LIMPIO PERFECTA PARA LA FAMILIA PERFECTA PARA LA FAMILIA CÁMARA DE RETROCESO RINES DE LUJO IMPECABLE UN SOLO DUEÑO A/C FRÍO Y CALIENTE LLANTAS 90%",
         images: [
             "imagenes/Suvs/2017 CHEVROLET EQUINOX LS (1).jpeg",
@@ -394,11 +394,11 @@ const cars = [
             "imagenes/Suvs/2017 CHEVROLET EQUINOX LS (15).jpeg",
             "imagenes/Suvs/2017 CHEVROLET EQUINOX LS (16).jpeg"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "2021 RAM PROMASTER 2500 EX",
-        price: "$24.900",
+        price: "$22.900",
         down: "3.500",
         cash: "",
         year: "2021",
@@ -477,6 +477,90 @@ const cars = [
             "imagenes/Suvs/2008 NISSAN ROGUE S AWD (11).jpeg",
             "imagenes/Suvs/2008 NISSAN ROGUE S AWD (12).jpeg",
             "imagenes/Suvs/2008 NISSAN ROGUE S AWD (13).jpeg"
+        ],
+        soldOut: true
+    },
+    {
+        title: "CHEVROLET G2500 EXPRESS 2021",
+        price: "$20.900",
+        down: "2.500",
+        cash: "",
+        year: "2021",
+        mileage: "93.000 miles",
+        make: "Chevrolet",
+        description: "TÍTULO LIMPIO PERFECTA PARA EL JALE CÁMARA DE RETROCESO 93.000 MILLAS RIN DE LUJO 6 CILINDROS 4.3L CÁMARA DE RETROCESO A/C FRÍO Y CALIENTE LLANTAS 100% 1 SOLO DUEÑO IMPECABLE",
+        images: [
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (1).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (2).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (3).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (4).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (5).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (6).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (7).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (8).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (9).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (10).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (11).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (12).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (13).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (14).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 (15).webp"
+        ],
+        soldOut: false
+    },
+    {
+        title: "INTERNATIONAL M2 2021 26FT",
+        price: "$39.999",
+        down: "",
+        cash: "",
+        year: "2021",
+        mileage: "189.000 miles",
+        make: "Trucks",
+        description: "TÍTULO LIMPIO COMO NUEVO CUMMINS ENGINE 6.7L ALLISON TRANSMISSION LLANTAS 90% A/C FRIO Y CALIENTE LIFTGATE AL 💯 ASIENTOS DE CUERO LISTO PARA TRABAJAR CARFAX 100 LIMPIO IMPECABLE SE PUEDE FINANCIAR ",
+        images: [
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (1).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (2).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (3).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (4).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (5).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (6).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (7).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (8).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (9).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (10).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (11).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (12).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (13).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (14).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (15).webp"
+            ],
+        soldOut: false
+    },
+    {
+        title: "HONDA CIVIC LX 2013",
+        price: "$11.500",
+        down: "$2.500",
+        cash: "$8.999",
+        year: "2009",
+        mileage: "152.000 miles",
+        make: "Honda",
+        description: "TÍTULO LIMPIO PANTALLA CÁMARA DE RETROCESO LLANTAS 90% A/C FRÍO Y CALIENTE MOTOR AL 💯 TRANSMISSION AL 💯 ECONÓMICO EN GASOLINA IMPECABLE ",
+        images: [
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (1).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (2).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (3).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (4).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (5).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (6).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (7).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (8).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (9).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (10).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (11).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (12).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (13).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (14).webp",
+            "imagenes/Sedans/HONDA CIVIC LX 2013 (15).webp"
         ],
         soldOut: false
     },
