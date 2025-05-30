@@ -365,7 +365,7 @@ const cars = [
             "imagenes/Suvs/2016 GMC TERRAIN SLE (15).jpeg",
             "imagenes/Suvs/2016 GMC TERRAIN SLE (16).jpeg"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "2017 CHEVROLET EQUINOX LS",
