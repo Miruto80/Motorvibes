@@ -541,7 +541,7 @@ const cars = [
         price: "$11.500",
         down: "$2.500",
         cash: "$8.999",
-        year: "2009",
+        year: "2013",
         mileage: "152.000 miles",
         make: "Honda",
         description: "TÍTULO LIMPIO PANTALLA CÁMARA DE RETROCESO LLANTAS 90% A/C FRÍO Y CALIENTE MOTOR AL 💯 TRANSMISSION AL 💯 ECONÓMICO EN GASOLINA IMPECABLE ",
@@ -563,6 +563,34 @@ const cars = [
             "imagenes/Sedans/HONDA CIVIC LX 2013 (15).webp"
         ],
         soldOut: true
+    },
+    {
+        title: "HYUNDAI ELANTRA SE 2021",
+        price: "$13.900 Financing",
+        down: "$3.000",
+        cash: "$11.900",
+        year: "2021",
+        mileage: "107.000 miles",
+        make: "Honda",
+        description: "TÍTULO LIMPIO PANTALLA CÁMARA DE RETROCESO LLANTAS 90% A/C FRÍO Y CALIENTE MOTOR AL 💯 TRANSMISSION AL 💯 ECONÓMICO EN GASOLINA IMPECABLE ",
+        images: [
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (1).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (2).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (3).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (4).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (5).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (6).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (7).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (8).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (9).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (10).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (11).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (12).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (13).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (14).webp",
+            "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (15).webp"
+        ],
+        soldOut: false
     },
     // Más carros aquí
 ];
