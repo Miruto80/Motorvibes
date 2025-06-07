@@ -592,6 +592,34 @@ const cars = [
         ],
         soldOut: false
     },
+    {
+        title: "FORD ECOSPORT SE 2018",
+        price: "$12.900 financing",
+        down: "3.000",
+        cash: "9.900",
+        year: "2018",
+        mileage: "101.000 miles",
+        make: "Chevrolet",
+        description: "TÍTULO LIMPIO CÁMARA DE RETROCESO RINES DE LUJO LLANTAS NUEVAS A/C FRÍO Y CALIENTE UN SOLO DUEÑO ",
+        images: [
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (1).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (2).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (3).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (4).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (5).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (6).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (7).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (8).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (9).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (10).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (11).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (12).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (13).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (14).webp",
+            "imagenes/Suvs/FORD ECOSPORT SE 2018 (15).webp"
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
