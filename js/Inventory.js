@@ -652,21 +652,21 @@ const cars = [
         make: "BMW",
         description: "TÍTULO LIMPIO 100% MOTOR AL 💯 TRANSMISIÓN AL 💯 8 CILINDROS 4.4L ASIENTOS DE CUERO 1 SOLO DUEÑO QUEMACOCO PANTALLA CÁMARA DE RETROCESO LLANTAS 90% FULL EQUIPO IM PERFORMANCE TWIN TURBO RIN DE LUJOS IMPECABLE",
         images: [
-            "imagenes/Luxury/BMW SERIES 5 2021 (1).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (2).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (3).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (4).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (5).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (6).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (7).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (8).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (9).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (10).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (11).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (12).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (13).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (14).webp",
-            "imagenes/Luxury/BMW SERIES 5 2021 (15).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (1).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (2).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (3).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (4).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (5).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (6).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (7).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (8).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (9).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (10).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (11).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (12).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (13).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (14).webp",
+            "imagenes/Sedans/BMW SERIES 5 2021 (15).webp",
         ],
         soldOut: true
     },
@@ -726,6 +726,34 @@ const cars = [
         ],
         soldOut: false
     },
+     {
+        title: "TOYOTA RUNNER 4x4 SR5 2017",
+        price: "$28.900 financing",
+        down: "3.500",
+        cash: "26.900",
+        year: "2018",
+        mileage: "128.000 miles",
+        make: "Chevrolet",
+        description: "TÍTULO LIMPIO RINES DE LUJO CÁMARA DE RETROCESO IMPECABLE LLANTAS MUY NUEVAS A/C FRÍO Y CALIENTE UN SOLO DUEÑO PACK TFORCE",
+        images: [
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (1).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (2).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (3).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (4).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (5).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (6).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (7).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (8).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (9).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (10).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (11).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (12).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (13).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (14).webp",
+            "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (15).webp"
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
@@ -733,7 +761,6 @@ const itemsPerPage = 12;
 let currentPage = 1;
 
 function renderCars(page, filteredCars = cars) {
-
     filteredCars.sort((a, b) => a.soldOut - b.soldOut);
 
     const start = (page - 1) * itemsPerPage;
@@ -741,14 +768,20 @@ function renderCars(page, filteredCars = cars) {
     const carsToShow = filteredCars.slice(start, end);
 
     const carList = document.getElementById("car-list");
-    carList.innerHTML = ""; // Limpiar los autos anteriores
+    carList.innerHTML = ""; // Limpiar autos anteriores
+
+    if (carsToShow.length === 0) {
+        carList.innerHTML = `<div class="col-12 text-center mt-4"><p>No matching cars found.</p></div>`;
+        updatePagination(0); // No paginación si no hay resultados
+        return;
+    }
 
     carsToShow.forEach(car => {
         const carDiv = document.createElement("div");
         carDiv.className = "col-md-4 mb-4";
         carDiv.innerHTML = `
             <div class="card" style="height: 100%;">
-                <img src="${car.images[0]}" class="card-img-top" alt="${car.title}" title="Clik in the image to see more" data-bs-toggle="modal" data-bs-target="#carModal" onclick="openModal(${cars.indexOf(car)})">
+                <img src="${car.images[0]}" class="card-img-top" alt="${car.title}" title="Click on the image to see more" data-bs-toggle="modal" data-bs-target="#carModal" onclick="openModal(${cars.indexOf(car)})">
                 ${car.soldOut ? `<div class="sold-out-banner">SOLD</div>` : ""}
                 <div class="card-body">
                     <h5 class="card-title">${car.title}</h5>
@@ -760,7 +793,7 @@ function renderCars(page, filteredCars = cars) {
         carList.appendChild(carDiv);
     });
 
-    updatePagination();
+    updatePagination(filteredCars.length);
 }
 
 function openModal(carIndex) {
@@ -787,10 +820,12 @@ function openModal(carIndex) {
     document.getElementById("car-cash").textContent = car.cash || 'N/A';
 }
 
-function updatePagination() {
-    const totalPages = Math.ceil(cars.length / itemsPerPage);
+function updatePagination(totalItems = cars.length) {
+    const totalPages = Math.ceil(totalItems / itemsPerPage);
     const pagination = document.getElementById("pagination");
-    pagination.innerHTML = ""; // Limpiar la paginación anterior
+    pagination.innerHTML = "";
+
+    if (totalPages <= 1) return;
 
     for (let i = 1; i <= totalPages; i++) {
         const pageItem = document.createElement("li");
@@ -799,7 +834,6 @@ function updatePagination() {
         pagination.appendChild(pageItem);
     }
 }
-
 function goToPage(page) {
     currentPage = page;
     renderCars(currentPage);
