@@ -718,3 +718,14 @@ document.getElementById('legal-button').addEventListener('click', function () {
     legalContent.classList.toggle('show');
 });
 
+function handleSearch() {
+    const searchInput = document.getElementById("carSearchInput").value.trim().toLowerCase();
+    if (searchInput === "") {
+        renderCars(1);
+        return;
+    }
+    const filteredCars = cars.filter(car => car.title.toLowerCase().includes(searchInput));
+    renderCars(1, filteredCars);
+
+    document.getElementById("carSearchInput").value = "";
+}
