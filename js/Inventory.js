@@ -30,7 +30,7 @@ const cars = [
         price: "$37.999",
         down: "",
         cash: "",
-        year: "2021",
+        year: "2018",
         mileage: "180.000 miles",
         make: "Trucks",
         description: "TÍTULO LIMPIO PERFECTO PARA EL TRANSPORTE LLANTAS NUEVAS LIFT GATE DE ALUMINIO A/C FRÍO Y CALIENTE 1 SOLO DUEÑO FRENO DE AIRE ASIENTOS DE CUERO ALLISON TRASMISSION  MOTOR TOYOTA 7.6L SE PUEDES FINANCIAR ",
@@ -534,7 +534,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (14).webp",
             "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (15).webp"
             ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "HONDA CIVIC LX 2013",
