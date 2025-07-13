@@ -810,7 +810,7 @@ const cars = [
             "imagenes/Trucks/FREIGHTLINER M2 106 2019 (15).webp",
             "imagenes/Trucks/FREIGHTLINER M2 106 2019 (16).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "TOYOTA COROLLA LE 2016",
