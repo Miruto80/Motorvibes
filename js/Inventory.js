@@ -891,6 +891,32 @@ const cars = [
         ],
         soldOut: false
     },
+    {
+        title: "HINO 2020 268 26 FT",
+        price: "$35.900",
+        down: "",
+        cash: "",
+        year: "2020",
+        mileage: "208.000 miles",
+        make: "Hino",
+        description: "TÍTULO LIMPIO PERFECTO PARA EL TRANSPORTE LLANTAS NUEVAS LIFT GATE NO CDL 25950 LBS 208.000 MILLAS A/C FRÍO Y CALIENTE 1 SOLO DUEÑO FRENO DE AIRE ASIENTOS DE CUERO ALLISON TRASMISSION MOTOR TOYOTA 7.6L SE PUEDES FINANCIAR",
+        images: [
+            "imagenes/Trucks/HINO 2020 268 26 FT (1).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT (2).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT (3).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT (4).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT (5).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT (6).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT (7).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT (8).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT (9).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT (10).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT (11).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT (12).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT (13).webp"
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
