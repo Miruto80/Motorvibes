@@ -889,7 +889,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (10).webp",
             "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (11).webp"
         ],
-        soldOut: true
+        soldOut: false
     },
     {
         title: "HINO 2020 268 26 FT",
