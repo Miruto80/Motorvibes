@@ -618,7 +618,7 @@ const cars = [
             "imagenes/Suvs/FORD ECOSPORT SE 2018 (14).webp",
             "imagenes/Suvs/FORD ECOSPORT SE 2018 (15).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "MERCEDES C250 2014",
@@ -889,7 +889,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (10).webp",
             "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (11).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "HINO 2020 268 26 FT",
@@ -915,7 +915,7 @@ const cars = [
             "imagenes/Trucks/HINO 2020 268 26 FT (12).webp",
             "imagenes/Trucks/HINO 2020 268 26 FT (13).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     // Más carros aquí
 ];
