@@ -917,6 +917,36 @@ const cars = [
         ],
         soldOut: true
     },
+    {
+        title: "FREIGHTLINER M2 106 2018",
+        price: "$40.900",
+        down: "",
+        cash: "",
+        year: "2018",
+        mileage: "122.000 miles",
+        make: "FREIGHTLINER",
+        description: "TÍTULO LIMPIO PERFECTO PARA EL JALE MOTOR CUMMINS NO CDL 25.999LBS ALLISON TRANSMISSION 26 FT LIFT GATE ALUMINIO SUSPENSIÓN DE AIRE FRENOS DE AIRE LLANTAS 90% IMPECABLE",
+        images: [
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (1).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (2).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (3).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (4).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (5).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (6).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (7).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (8).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (9).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (10).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (11).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (12).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (13).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (14).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (15).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (16).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2018 (17).webp"
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
