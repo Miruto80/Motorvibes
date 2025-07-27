@@ -947,6 +947,35 @@ const cars = [
         ],
         soldOut: false
     },
+    {
+        title: "INTERNATIONAL M2 2021 26FT",
+        price: "$38.900",
+        down: "",
+        cash: "",
+        year: "2021",
+        mileage: "217.000 miles",
+        make: "INTERNATIONAL",
+        description: "TÍTULO LIMPIO COMO NUEVO CUMMINS ENGINE 6.7L ALLISON TRANSMISSION LLANTAS 90% A/C FRIO Y CALIENTE LIFTGATE AL 💯 ASIENTOS DE CUERO LISTO PARA TRABAJAR CARFAX 100 LIMPIO IMPECABLE SE PUEDE FINANCIAR",
+        images: [
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (1).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (2).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (3).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (4).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (5).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (6).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (7).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (8).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (9).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (10).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (11).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (12).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (13).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (14).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (15).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (16).webp"
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
