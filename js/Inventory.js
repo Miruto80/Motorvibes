@@ -836,7 +836,7 @@ const cars = [
             "imagenes/Sedans/TOYOTA COROLLA  LE 2016 (12).webp",
             "imagenes/Sedans/TOYOTA COROLLA  LE 2016 (13).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "INTERNATIONAL 4300 2018 26FT",
