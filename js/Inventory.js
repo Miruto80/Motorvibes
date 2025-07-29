@@ -590,7 +590,7 @@ const cars = [
             "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (14).webp",
             "imagenes/Sedans/HYUNDAI ELANTRA SE 2021 (15).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "FORD ECOSPORT SE 2018",
@@ -696,7 +696,7 @@ const cars = [
             "imagenes/Sedans/HYUNDAI ELANTRA SE 2019 (14).webp",
             "imagenes/Sedans/HYUNDAI ELANTRA SE 2019 (15).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "RAM 1500 REBEL 4x4 2021",
