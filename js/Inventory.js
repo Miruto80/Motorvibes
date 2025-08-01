@@ -781,7 +781,7 @@ const cars = [
             "imagenes/Trucks/FREIGHTLINER M2 106 2017 (15).webp",
             "imagenes/Trucks/FREIGHTLINER M2 106 2017 (16).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "FREIGHTLINER M2 106 2019",
@@ -973,6 +973,34 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (14).webp",
             "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (15).webp",
             "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (16).webp"
+        ],
+        soldOut: false
+    },
+    {
+        title: "INTERNATIONAL M2 2020 26FT",
+        price: "$37.900",
+        down: "",
+        cash: "",
+        year: "2020",
+        mileage: "202.000 miles",
+        make: "International",
+        description: "TÍTULO LIMPIO COMO NUEVOCUMMINS ENGINE 6.7L ALLISON TRANSMISSION LLANTAS 90% A/C FRIO Y CALIENTE LIFTGATE AL 💯 ASIENTOS DE CUERO LISTO PARA TRABAJAR CARFAX 100 LIMPIO IMPECABLE SE PUEDE FINANCIAR",
+        images: [
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT 2 (1).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT 2 (2).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT 2 (3).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT 2 (4).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT 2 (5).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT 2 (6).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT 2 (7).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT 2 (8).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT 2 (9).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT 2 (10).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT 2 (11).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (12).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (13).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (14).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (15).webp",
         ],
         soldOut: false
     },
