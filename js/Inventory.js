@@ -1012,7 +1012,7 @@ const cars = [
         year: "2021",
         mileage: "102.000 miles",
         description: "TÍTULO LIMPIO  PERFECTA CONDICIONES PANTALLA LLANTAS 90% 1 SOLO DUEÑO A/C FRÍO Y CALIENTE CÁMARA DE RETROCESO GASOLINA IMPECABLE",
-        make: "ford",
+        make: "Ford",
         images: [
             "imagenes/Suvs/FORD TRANSIT 250 2021 (1).webp",
             "imagenes/Suvs/FORD TRANSIT 250 2021 (2).webp",
@@ -1040,7 +1040,7 @@ const cars = [
         year: "2018",
         mileage: "117,000 miles",
         description: "TÍTULO LIMPIO  PERFECTA CONDICIONES PANTALLA LLANTAS 90% 1 SOLO DUEÑO A/C FRÍO Y CALIENTE CÁMARA DE RETROCESO GASOLINA IMPECABLE",
-        make: "ford",
+        make: "Ford",
         images: [
             "imagenes/Suvs/FORD TRANSIT CONNECT XL 2018 (1).webp",
             "imagenes/Suvs/FORD TRANSIT CONNECT XL 2018 (2).webp",
