@@ -27,7 +27,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-body">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <img src="imagenes/Comunes/logo.webp" alt="Logo Taekyon" width="150" height="120" class="d-inline-block align-text-top">
           </a>
           <a class="navbar-brand fs-4 d-none d-sm-inline d-lg-inline fs-lg-2" href="#">
@@ -39,7 +39,7 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html" id="Home">Home</a>
+                <a class="nav-link active" href="index.php" id="Home">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">
@@ -47,7 +47,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="Link-I" href="Inventory.html">
+                <a class="nav-link" id="Link-I" href="Inventory.php">
                    View inventory
                 </a>
               </li>

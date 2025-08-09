@@ -25,7 +25,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-body">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <img src="imagenes/Comunes/logo.webp" alt="Logo Taekyon" width="150" height="120" class="d-inline-block align-text-top">
           </a>
           <a class="navbar-brand fs-4 d-none d-sm-inline d-lg-inline fs-lg-2" href="#">
@@ -37,10 +37,10 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html" id="Home">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.php" id="Home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Pre-approval.html">
+                <a class="nav-link" href="Pre-approval.php">
                   Pre-approval
                 </a>
               </li>
@@ -132,7 +132,7 @@
                                 <p><strong>Year:</strong> <span id="car-year"></span></p>
                                 <p><strong>Mileage:</strong> <span id="car-mileage"></span></p>
                                 <p id="descripcion"><strong>Description:</strong> <span id="car-description"></span></p>
-                                <a href="Pre-approval.html" class="btn btn-success w-100">Get Pre-Approval</a>
+                                <a href="Pre-approval.php" class="btn btn-success w-100">Get Pre-Approval</a>
                             </div>
                         </div>
                     </div>
