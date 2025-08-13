@@ -1030,7 +1030,7 @@ const cars = [
             "imagenes/Suvs/FORD TRANSIT 250 2021 (14).webp",
             "imagenes/Suvs/FORD TRANSIT 250 2021 (15).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "FORD TRANSIT CONNECT XL 2018",
