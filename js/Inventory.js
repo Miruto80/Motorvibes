@@ -1117,6 +1117,33 @@ const cars = [
         ],
         soldOut: false
     },
+    {
+        title: "CHEVROLET G2500 EXPRESS 2021",
+        price: "$18,900",
+        down: "$2,500",
+        cash: "",
+        year: "2021",
+        mileage: "114,000 miles",
+        description: "TÍTULO LIMPIO PERFECTA PARA EL JALE CÁMARA DE RETROCESO RIN DE LUJO 6 CILINDROS 4.3L CÁMARA DE RETROCESO A/C FRÍO Y CALIENTE LLANTAS 100% 1 SOLO DUEÑO IMPECABLE",
+        make: "Chevrolet",
+        images: [
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (2).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (1).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (3).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (4).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (5).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (6).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (7).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (8).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (9).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (10).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (11).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (12).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (13).webp",
+            "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (14).webp"
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
