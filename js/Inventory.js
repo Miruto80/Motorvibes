@@ -724,7 +724,7 @@ const cars = [
             "imagenes/Trucks/RAM 1500 REBEL 4x4 2021 (14).webp",
             "imagenes/Trucks/RAM 1500 REBEL 4x4 2021 (15).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "TOYOTA RUNNER 4x4 SR5 2017",
@@ -752,7 +752,7 @@ const cars = [
             "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (14).webp",
             "imagenes/Suvs/TOYOTA RUNNER 4x4 SR5 2017 (15).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "FREIGHTLINER M2 106 2017",
@@ -1141,6 +1141,36 @@ const cars = [
             "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (12).webp",
             "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (13).webp",
             "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (14).webp"
+        ],
+        soldOut: false
+    },
+    {
+        title: "CHEVROLET TRAVERSE LT 2016",
+        price: "$12.900 financing",
+        down: "3.000",
+        cash: "10.900",
+        year: "2016",
+        mileage: "121.000 miles",
+        make: "Chevrolet",
+        description: "TÍTULO LIMPIO RINES DE LUJO LLANTAS NUEVAS 3 FILAS DE ASIENTOS CÁMARA DE RETROCESO A/C FRÍO Y CALIENTE IDEAL PARA FAMILIA ",
+        images: [
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (1).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (8).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (10).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (2).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (3).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (4).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (5).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (6).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (7).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (9).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (11).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (12).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (13).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (14).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (15).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (16).webp",
+            "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (17).webp"
         ],
         soldOut: false
     },
