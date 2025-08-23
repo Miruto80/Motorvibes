@@ -889,7 +889,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (10).webp",
             "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (11).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "HINO 2020 268 26 FT",
@@ -1002,7 +1002,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (14).webp",
             "imagenes/Trucks/INTERNATIONAL M2 2020 26FT (15).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "FORD TRANSIT 250 2021",
@@ -1087,7 +1087,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL MV607 202026FT (15).webp",
             "imagenes/Trucks/INTERNATIONAL MV607 202026FT (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "HINO 2020 268 26 FT",
@@ -1115,7 +1115,7 @@ const cars = [
             "imagenes/Trucks/HINO 2020 268 26 FT (14).webp",
             "imagenes/Trucks/HINO 2020 268 26 FT (15).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "CHEVROLET G2500 EXPRESS 2021",
@@ -1172,7 +1172,7 @@ const cars = [
             "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (16).webp",
             "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (17).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     // Más carros aquí
 ];
