@@ -865,7 +865,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL 4300 2018 26FT (15).webp",
             "imagenes/Trucks/INTERNATIONAL 4300 2018 26FT (16).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "INTERNATIONAL M2 2020 26FT",
@@ -945,7 +945,7 @@ const cars = [
             "imagenes/Trucks/FREIGHTLINER M2 106 2018 (16).webp",
             "imagenes/Trucks/FREIGHTLINER M2 106 2018 (17).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "INTERNATIONAL M2 2021 26FT",
@@ -974,7 +974,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (15).webp",
             "imagenes/Trucks/INTERNATIONAL M2 2021 26FT (16).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "INTERNATIONAL M2 2020 26FT",
@@ -1058,7 +1058,7 @@ const cars = [
             "imagenes/Suvs/FORD TRANSIT CONNECT XL 2018 (14).webp",
             "imagenes/Suvs/FORD TRANSIT CONNECT XL 2018 (15).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "INTERNATIONAL MV607 2020 26FT",
@@ -1173,6 +1173,145 @@ const cars = [
             "imagenes/Suvs/CHEVROLET TRAVERSE LT 2016 (17).webp"
         ],
         soldOut: true
+    },
+     {
+        title: "TOYOTA COROLLA LE 2021",
+        price: "$16.900 financing",
+        down: "$3.500",
+        cash: "$14.900",
+        year: "2021",
+        mileage: "82.000 miles",
+        make: "Toyota",
+        description: "TÍTULO LIMPIO CÁMARA DE RETROCESO LLANTAS NUEVAS A/C FRÍO Y CALIENTE IMPECABLE UN SOLO DUEÑO",
+        images: [
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (1).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (2).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (3).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (4).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (5).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (6).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (7).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (8).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (9).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (10).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (11).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (12).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (13).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (14).webp",
+            "imagenes/Sedans/TOYOTA COROLLA LE 2021 (15).webp",
+        ],
+        soldOut: false
+    },
+    {
+        title: "CHEVROLET 3500 EXPRESS 2018",
+        price: "$17.900 financing",
+        down: "3.500",
+        cash: "15.900",
+        year: "2018",
+        milage: "133.000 miles",
+        make: "Chevrolet",
+        description: "TÍTULO LIMPIO PERFECTA PARA EL JALE LLANTAS 90% RIN DE LUJO A/C FRÍO Y CALIENTE 1 SOLO DUEÑO ASIENTOS DE CUERO 6 CILINDROS IMPECABLE PARA 15 PASAJEROS",
+        images: [
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (1).webp",
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (2).webp",
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (3).webp",
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (4).webp",
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (5).webp",
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (6).webp",
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (7).webp",
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (8).webp",
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (9).webp",
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (11).webp",
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (10).webp",
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (12).webp",
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (13).webp",
+        ],
+        soldOut: false
+    },
+    {
+        title: "FORD TRANSIT 250 2021",
+        price: "$28.900 financing",
+        down: "3.500",
+        cash: "26.900",
+        year: "2021",
+        milage: "75.000 miles",
+        make: "Ford",
+        description: "TÍTULO LIMPIO PERFECTA PARA EL JALE LLANTAS 90% RIN DE LUJO A/C FRÍO Y CALIENTE 1 SOLO DUEÑO ASIENTOS DE CUERO 6 CILINDROS IMPECABLE PARA 15 PASAJEROS",
+        images: [
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (1).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (2).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (3).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (4).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (5).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (6).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (7).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (8).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (9).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (10).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (11).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (12).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (13).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (14).webp",
+            "imagenes/Suvs/FORD TRANSIT 250 2021 2 (15).webp",
+        ],
+        soldOut: false
+    },
+     {
+        title: "HINO 2020 268 26 FT",
+        price: "$38.900",
+        down: "6000",
+        cash: "",
+        year: "2020",
+        mileage: "211.000 miles",
+        make: "Hino",
+        description: "TÍTULO LIMPIO PERFECTO PARA EL TRANSPORTE LLANTAS NUEVAS LIFT GATE NO CDL 25950 LBS A/C FRÍO Y CALIENTE 1 SOLO DUEÑO FRENO DE AIRE ASIENTOS DE CUERO ALLISON TRASMISSION MOTOR TOYOTA 7.6L SE PUEDES FINANCIAR",
+        images: [
+            "imagenes/Trucks/HINO 2020 268 26 FT 3(1).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 3(2).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 3(3).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 3(4).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 3(5).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 3(6).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 3(7).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 3(8).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 3(9).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 3(10).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 3(11).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 3(12).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 3(13).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 2 (14).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 2 (15).webp",
+            "imagenes/Trucks/HINO 2020 268 26 FT 2 (16).webp",
+        ],
+        soldOut: false
+    },
+     {
+        title: "TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 ",
+        price: "$27.900 financing",
+        down: "4000",
+        cash: "27.900",
+        year: "2020",
+        mileage: "142.000 miles",
+        make: "Toyota",
+        description: "TÍTULO LIMPIO LLANTAS NUEVAS RINES DE LUJO CAMARA DE RETROCESO IMPECABLE UN SOLO DUEÑO A/C FRIO Y CALIENTE",
+        images: [
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (2).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (1).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (3).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (4).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (5).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (6).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (7).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (8).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (9).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (10).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (11).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (12).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (13).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (14).webp",
+            "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (15).webp",
+        ],
+        soldOut: false
     },
     // Más carros aquí
 ];
