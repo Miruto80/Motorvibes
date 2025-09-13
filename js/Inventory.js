@@ -640,7 +640,7 @@ const cars = [
             "imagenes/Luxury/MERCEDES C250 2014 (8).webp",
             "imagenes/Luxury/MERCEDES C250 2014 (9).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "BMW SERIES 5 2021",
@@ -1283,7 +1283,7 @@ const cars = [
             "imagenes/Trucks/HINO 2020 268 26 FT 2 (15).webp",
             "imagenes/Trucks/HINO 2020 268 26 FT 2 (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 ",
@@ -1340,7 +1340,7 @@ const cars = [
             "imagenes/Trucks/FREIGHTLINER M2 106 2018 2 (15).webp",
             "imagenes/Trucks/FREIGHTLINER M2 106 2018 2 (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "FREIGHTLINER M2 106 2020",
@@ -1369,7 +1369,7 @@ const cars = [
             "imagenes/Trucks/FREIGHTLINER M2 106 2020 (14).webp",
             "imagenes/Trucks/FREIGHTLINER M2 106 2020 (15).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "HINO 2023 IL6 26 FT",
@@ -1398,7 +1398,7 @@ const cars = [
             "imagenes/Trucks/HINO 2023 IL6 26 FT (15).webp",
             "imagenes/Trucks/HINO 2023 IL6 26 FT (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "INTERNATIONAL MV607 202026FT",
@@ -1425,6 +1425,34 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL MV607 202026FT 2(13).webp",
             "imagenes/Trucks/INTERNATIONAL MV607 202026FT 2(14).webp",
             "imagenes/Trucks/INTERNATIONAL MV607 202026FT 2(15).webp",
+        ],
+        soldOut: true
+    },
+    {
+        title: "TOYOTA COROLLA SE NIGHTSHADE 2021",
+        price: "$19.500",
+        down: "$2.500",
+        cash: "",
+        year: "2021",
+        mileage: "97.000 miles",
+        make: "Toyota",
+        description: "TÍTULO LIMPIO RINES DE LUJO PANTALLA CÁMARA DE RETROCESO LLANTAS BUENAS A/C FRÍO Y CALIENTE IMPECABLE UN SOLO DUEÑO SE PUEDES FINANCIAR",
+        images: [
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (3).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (4).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (1).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (2).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (5).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (6).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (7).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (8).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (9).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (10).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (11).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (12).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (13).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (14).webp",
+            "imagenes/Sedans/TOYOTA COROLLA SE NIGHTSHADE 2021 (15).webp",
         ],
         soldOut: false
     },
