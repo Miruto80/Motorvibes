@@ -1483,7 +1483,7 @@ const cars = [
             "imagenes/Trucks/FREIGHTLINER M2 106 2018 3 (15).webp",
             "imagenes/Trucks/FREIGHTLINER M2 106 2018 3 (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "HINO 2021 IL6 26 FT",
