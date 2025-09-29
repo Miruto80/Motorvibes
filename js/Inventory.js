@@ -1119,7 +1119,7 @@ const cars = [
     },
     {
         title: "CHEVROLET G2500 EXPRESS 2021",
-        price: "$18,900",
+        price: "$16,900",
         down: "$2,500",
         cash: "",
         year: "2021",
@@ -1204,9 +1204,9 @@ const cars = [
     },
     {
         title: "CHEVROLET 3500 EXPRESS 2018",
-        price: "$17.900 financing",
-        down: "3.500",
-        cash: "15.900",
+        price: "$14.500 financing",
+        down: "2.000",
+        cash: "12.900",
         year: "2018",
         milage: "133.000 miles",
         make: "Chevrolet",
@@ -1225,6 +1225,7 @@ const cars = [
             "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (10).webp",
             "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (12).webp",
             "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (13).webp",
+            "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (14).webp",
         ],
         soldOut: false
     },
