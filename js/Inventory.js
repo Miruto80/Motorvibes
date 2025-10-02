@@ -1629,6 +1629,34 @@ const cars = [
         ],
         soldOut: false
     },
+    {
+        title: "RAM PROMASTER 3500 EX 2021",
+        price: "$23.900",
+        down: "3.500",
+        cash: "",
+        year: "2021",
+        mileage: "102.000 miles",
+        make: "Ram",
+        description: "TÍTULO LIMPIO PERFECTA PARA EL JALE PANTALLA CÁMARA DE RETROCESO RIN DE LUJO LLANTAS 90% A/C FRÍO Y CALIENTE 6 CILINDROS 3.6L IMPECABLE SE PUEDES FINANCIAR ",
+        images: [
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (1).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (2).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (3).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (4).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (5).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (6).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (7).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (8).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (9).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (10).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (11).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (12).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (13).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (14).webp",
+            "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 (15).webp",
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
