@@ -1142,7 +1142,7 @@ const cars = [
             "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (13).webp",
             "imagenes/Suvs/CHEVROLET G2500 EXPRESS 2021 2 (14).webp"
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "CHEVROLET TRAVERSE LT 2016",
@@ -1227,7 +1227,7 @@ const cars = [
             "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (13).webp",
             "imagenes/Suvs/CHEVROLET 3500 EXPRESS 2018 (14).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "FORD TRANSIT 250 2021",
@@ -1571,7 +1571,7 @@ const cars = [
             "imagenes/Trucks/NTERNATIONAL 4300 2019 26FT (15).webp",
             "imagenes/Trucks/NTERNATIONAL 4300 2019 26FT (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "HINO 2019 268 26 FT",
