@@ -1600,7 +1600,7 @@ const cars = [
             "imagenes/Trucks/HINO 2019 268 26 FT (15).webp",
             "imagenes/Trucks/HINO 2019 268 26 FT (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "RAM PROMASTER 3500 EX 2019",
