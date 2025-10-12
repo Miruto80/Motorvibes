@@ -1312,7 +1312,7 @@ const cars = [
             "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (14).webp",
             "imagenes/Trucks/TOYOTA TACOMA TRD OFF ROAD  V6 4x4 2022 (15).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "FREIGHTLINER M2 106 2018",
@@ -1513,7 +1513,7 @@ const cars = [
             "imagenes/Trucks/HINO 2021 IL6 26 FT (15).webp",
             "imagenes/Trucks/HINO 2021 IL6 26 FT (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "INTERNATIONAL M2 2021 26FT",
@@ -1542,7 +1542,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL M2 2021 26FT 3 (15).webp",
             "imagenes/Trucks/INTERNATIONAL M2 2021 26FT 3 (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "INTERNATIONAL 4300 2019 26FT",
