@@ -1686,6 +1686,35 @@ const cars = [
         ],
         soldOut: false
     },
+     {
+        title: "INTERNATIONAL M2 2020 26FT2",
+        price: "$37.900",
+        down: "$6.000",
+        cash: "",
+        year: "2020",
+        mileage: "207.000 miles",
+        make: "International",
+        description: "TÍTULO LIMPIO COMO NUEVO 207.000 MILLAS CUMMINS ENGINE 6.7L ALLISON TRANSMISSION LLANTAS 90% A/C FRIO Y CALIENTE LIFTGATE AL 💯 ASIENTOS DE CUERO LISTO PARA TRABAJAR CARFAX 100 LIMPIO IMPECABLE SE PUEDE FINANCIAR ",
+        images: [
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (1).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (2).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (3).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (4).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (5).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (6).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (7).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (8).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (9).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (10).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (11).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (12).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (13).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (14).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (15).webp",
+            "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (16).webp",
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
