@@ -1713,7 +1713,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (15).webp",
             "imagenes/Trucks/INTERNATIONAL M2 2020 26FT2 (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     // Más carros aquí
 ];
