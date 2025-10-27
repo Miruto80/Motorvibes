@@ -1627,7 +1627,7 @@ const cars = [
             "imagenes/Suvs/RAM PROMASTER 3500 EX 2019 (13).webp",
             "imagenes/Suvs/RAM PROMASTER 3500 EX 2019 (14).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "RAM PROMASTER 3500 EX 2021",
