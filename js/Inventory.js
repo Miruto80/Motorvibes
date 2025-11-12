@@ -1725,8 +1725,8 @@ const cars = [
         make: "Freightliner",
         description: "TÍTULO LIMPIO PERFECTO PARA EL JALE MOTOR CUMMINS NO CDL 25.999LBS 26 FT LIFT GATE ALUMINIO SUSPENSIÓN DE AIRE FRENOS DE AIRE LLANTAS 90% IMPECABLE SE PUEDES FINANCIAR",
         images: [
-            "imagenes/Trucks/FREIGHTLINER M2 106 2019 2 (1).webp",
             "imagenes/Trucks/FREIGHTLINER M2 106 2019 2 (2).webp",
+            "imagenes/Trucks/FREIGHTLINER M2 106 2019 2 (1).webp",
             "imagenes/Trucks/FREIGHTLINER M2 106 2019 2 (3).webp",
             "imagenes/Trucks/FREIGHTLINER M2 106 2019 2 (4).webp",
             "imagenes/Trucks/FREIGHTLINER M2 106 2019 2 (5).webp",
@@ -1741,7 +1741,7 @@ const cars = [
             "imagenes/Trucks/FREIGHTLINER M2 106 2019 2 (14).webp",
             "imagenes/Trucks/FREIGHTLINER M2 106 2019 2 (15).webp",
         ],
-        soldOut: true
+        soldOut: false
     },
     {
         title: "CHEVROLET G2500 EXPRESS 2021",
