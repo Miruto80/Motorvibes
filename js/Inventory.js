@@ -1200,7 +1200,7 @@ const cars = [
             "imagenes/Sedans/TOYOTA COROLLA LE 2021 (14).webp",
             "imagenes/Sedans/TOYOTA COROLLA LE 2021 (15).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "CHEVROLET 3500 EXPRESS 2018",
