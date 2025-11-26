@@ -1887,6 +1887,25 @@ const cars = [
         ],
         soldOut: false
     },
+    {
+        title: "MITSUBISHI MIRAGE G4 2020",
+        price: "$9.500",
+        down: "$1.500",
+        cash: "$7.500",
+        year: "2021",
+        mileage: "98.000 miles",
+        make: "Mitsubishi",
+        description: "TÍTULO LIMPIO PANTALLA CÁMARA DE RETROCESO A/C FRÍO Y CALIENTE ECONÓMICO EN GASOLINA LLANTAS 90% IMPECABLE SE PUEDES FINANCIAR",
+        images: [
+            "imagenes/Sedans/MITSUBISHI MIRAGE G4 2020 (1).webp",
+            "imagenes/Sedans/MITSUBISHI MIRAGE G4 2020 (2).webp",
+            "imagenes/Sedans/MITSUBISHI MIRAGE G4 2020 (3).webp",
+            "imagenes/Sedans/MITSUBISHI MIRAGE G4 2020 (4).webp",
+            "imagenes/Sedans/MITSUBISHI MIRAGE G4 2020 (5).webp",
+            "imagenes/Sedans/MITSUBISHI MIRAGE G4 2020 (6).webp",
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
