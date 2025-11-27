@@ -1906,6 +1906,35 @@ const cars = [
         ],
         soldOut: false
     },
+     {
+        title: "HINO 2022 IL6 26 FT",
+        price: "$44.900",
+        down: "$6.000",
+        cash: "",
+        year: "2022",
+        mileage: "135.000 miles",
+        make: "Hino",
+        description: "TÍTULO LIMPIO PERFECTO PARA EL TRANSPORTE LLANTAS NUEVAS LIFT GATE NO CDL 25950 LBS A/C FRÍO Y CALIENTE 1 SOLO DUEÑO FRENO DE AIRE ASIENTOS DE CUERO ALLISON TRASMISSION MOTOR CUMMINS 6.7L SE PUEDES FINANCIAR ",
+        images: [
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (1).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (8).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (14).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (2).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (3).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (4).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (5).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (6).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (7).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (9).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (10).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (11).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (12).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (13).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (15).webp",
+            "imagenes/Trucks/HINO 2022 IL6 26 FT (16).webp",
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
