@@ -1935,6 +1935,30 @@ const cars = [
         ],
         soldOut: false
     },
+     {
+        title: "2019 RAM PROMASTER CITY SLT",
+        price: "$12.999",
+        down: "$2.000",
+        cash: "",
+        year: "2019",
+        mileage: "101.000 miles",
+        make: "Ram",
+        description: "TÍTULO LIMPIO PERFECTO PARA EL TRANSPORTE LLANTAS NUEVAS LIFT GATE NO CDL 25950 LBS A/C FRÍO Y CALIENTE 1 SOLO DUEÑO FRENO DE AIRE ASIENTOS DE CUERO ALLISON TRASMISSION MOTOR CUMMINS 6.7L SE PUEDES FINANCIAR ",
+        images: [
+            "imagenes/Suvs/2019 RAM PROMASTER CITY SLT (1).webp",
+            "imagenes/Suvs/2019 RAM PROMASTER CITY SLT (2).webp",
+            "imagenes/Suvs/2019 RAM PROMASTER CITY SLT (3).webp",
+            "imagenes/Suvs/2019 RAM PROMASTER CITY SLT (4).webp",
+            "imagenes/Suvs/2019 RAM PROMASTER CITY SLT (5).webp",
+            "imagenes/Suvs/2019 RAM PROMASTER CITY SLT (6).webp",
+            "imagenes/Suvs/2019 RAM PROMASTER CITY SLT (7).webp",
+            "imagenes/Suvs/2019 RAM PROMASTER CITY SLT (8).webp",
+            "imagenes/Suvs/2019 RAM PROMASTER CITY SLT (9).webp",
+            "imagenes/Suvs/2019 RAM PROMASTER CITY SLT (10).webp",
+            "imagenes/Suvs/2019 RAM PROMASTER CITY SLT (11).webp",
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
