@@ -1684,7 +1684,7 @@ const cars = [
             "imagenes/Trucks/HINO 2020 268 26FT (15).webp",
             "imagenes/Trucks/HINO 2020 268 26FT (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "INTERNATIONAL M2 2020 26FT2",
@@ -1799,7 +1799,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL 4300 2018 2 26FT (15).webp",
             "imagenes/Trucks/INTERNATIONAL 4300 2018 2 26FT (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "INTERNATIONAL MV607 2020 26 FT",
@@ -1828,7 +1828,7 @@ const cars = [
             "imagenes/Trucks/INTERNATIONAL MV607 2020 26 FT (15).webp",
             "imagenes/Trucks/INTERNATIONAL MV607 2020 26 FT (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     {
         title: "CHEVROLET G2500 EXPRESS 2021",
