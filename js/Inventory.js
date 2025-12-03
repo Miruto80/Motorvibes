@@ -1932,7 +1932,7 @@ const cars = [
             "imagenes/Sedans/MITSUBISHI MIRAGE G4 2020 (5).webp",
             "imagenes/Sedans/MITSUBISHI MIRAGE G4 2020 (6).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "HINO 2022 IL6 26 FT",
@@ -1961,7 +1961,7 @@ const cars = [
             "imagenes/Trucks/HINO 2022 IL6 26 FT (15).webp",
             "imagenes/Trucks/HINO 2022 IL6 26 FT (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "2019 RAM PROMASTER CITY SLT",
