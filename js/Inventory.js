@@ -2100,6 +2100,35 @@ const cars = [
         ],
         soldOut: false
     },
+     {
+        title: "FORD EXPLORER SPORT 4x4 2015",
+        price: "$10.900",
+        down: "$2.500",
+        cash: "$9.900",
+        year: "2015",
+        mileage: "137.000 miles",
+        make: "Ford",
+        description: "TÍTULO LIMPIO PERFECTA PARA LA FAMILIA 3 FILAS DE ASIENTOS ASIENTOS DE CUERO PANTALLA CÁMARA DE RETROCESO DOBLE QUEMACOCO A/C FRÍO Y CALIENTE IMPECABLE RIN DE LUJO",
+        images: [
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (1).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (8).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (9).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (2).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (3).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (4).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (5).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (6).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (7).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (10).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (11).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (12).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (13).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (14).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (15).webp",
+            "imagenes/Suvs/FORD EXPLORER SPORT 4x4 2015 (16).webp",
+        ],
+        soldOut: false
+    },
     // Más carros aquí
 ];
 
