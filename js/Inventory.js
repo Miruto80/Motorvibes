@@ -2070,7 +2070,7 @@ const cars = [
             "imagenes/Trucks/FORD F150 LARIAT 4x4 2018 (14).webp",
             "imagenes/Trucks/FORD F150 LARIAT 4x4 2018 (15).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
       {
         title: "HONDA ACCORD SPORT 2018",
