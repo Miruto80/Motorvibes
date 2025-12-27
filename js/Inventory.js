@@ -2127,7 +2127,7 @@ const cars = [
             "imagenes/Suvs/2017 CADILLAC ESCALADE PREM LUX 4x4 (15).webp",
             "imagenes/Suvs/2017 CADILLAC ESCALADE PREM LUX 4x4 (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
     // Más carros aquí
 ];
