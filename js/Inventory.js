@@ -1683,7 +1683,7 @@ const cars = [
             "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 B (14).webp",
             "imagenes/Suvs/RAM PROMASTER 3500 EX 2021 B (15).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "HINO 2020 268 26FT",
@@ -2071,6 +2071,34 @@ const cars = [
             "imagenes/Trucks/FORD F150 LARIAT 4x4 2018 (15).webp",
         ],
         soldOut: true
+    },
+    {
+        title: "CHEVROLET SILVERADO Z71 2015",
+        price: "20.900",
+        down: "",
+        cash: "",
+        year: "2015",
+        mileage: "140.000 miles",
+        make: "Chevrolet",
+        description: "TÍTULO LIMPIO 140.000 MILLAS CÁMARA DE RETROCESO LLANTAS NUEVAS LEVANTADA PANTALLA RINES DE LUJO A/C FRÍO Y CALIENTE 4x4  8 CILINDRO IMPECABLE SE PUEDES FINANCIAR",
+        images: [
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (1).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (2).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (3).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (4).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (5).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (6).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (7).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (8).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (9).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (10).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (11).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (12).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (13).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (14).webp",
+            "imagenes/Trucks/CHEVROLET SILVERADO Z71 2015 (15).webp",
+        ],
+        soldOut: false
     },
       {
         title: "HONDA ACCORD SPORT 2018",
