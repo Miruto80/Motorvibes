@@ -1798,7 +1798,7 @@ const cars = [
             "imagenes/Trucks/FREIGHTLINER M2 106 2019 3 (15).webp",
             "imagenes/Trucks/FREIGHTLINER M2 106 2019 3 (16).webp",
         ],
-        soldOut: false
+        soldOut: true
     },
      {
         title: "INTERNATIONAL 4300 2018 26FT",
