@@ -17,7 +17,7 @@
         <div class="top-bar-content">
             <span class="contact-info"><i class="fa-solid fa-phone"> Call us:</i><a href="tel:682-240-7569"> 682-240-7569</a></span>
             <div class="social-links">
-                <a href="https://www.facebook.com/share/gPN8Gs2vAiGGviTC/?mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61572580624185" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.instagram.com/motorvibesllc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
